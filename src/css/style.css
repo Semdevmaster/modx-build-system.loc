@@ -1,0 +1,15 @@
+@import 'modules/font-face.css';
+@import 'modules/base.css';
+@import 'modules/sprite.css';
+@import 'modules/animations.css';
+/* components styles*/
+@import 'components/container.css';
+@import 'components/outside-container.css';
+@import 'components/icon.css';
+@import 'components/buttons.css';
+@import 'components/links.css';
+@import 'components/breadcrumbs.css';
+@import 'components/preloader.css';
+/* last styles */
+@import 'modules/tags.css';
+@import 'modules/tailwind.css';

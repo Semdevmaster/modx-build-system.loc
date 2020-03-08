@@ -1,0 +1,65 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs__item {
+  font-size: .8rem;
+  line-height: 1.2;
+  display: inline-block;
+  color: inherit;
+}
+
+.breadcrumbs__item:not(:last-child)::after {
+  font-size: 1.2em;
+  position: relative;
+  top: 0.06em;
+  display: inline-block;
+  margin-right: 0.4em;
+  margin-left: 0.3em;
+  content: '/';
+  text-align: center;
+  @apply text-gray-400;
+}
+
+.breadcrumbs__item--active {
+  margin-top: 0.2em;
+}
+
+.breadcrumbs__element {
+  @apply text-gray-600;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@supports (--test: value) {
+  .breadcrumbs__item:not(:last-child)::after {
+    content: var(--cssuiBreadcrumbsDivider, '/');
+  }
+
+  .breadcrumbs--type-row {
+    --cssuiBreadcrumbsDivider: '→';
+  }
+
+  .breadcrumbs--type-dot {
+    --cssuiBreadcrumbsDivider: '•';
+  }
+
+  .breadcrumbs--type-vdash {
+    --cssuiBreadcrumbsDivider: '|';
+  }
+
+  .breadcrumbs--type-mrow {
+    --cssuiBreadcrumbsDivider: '›';
+  }
+
+  .breadcrumbs--type-dash {
+    --cssuiBreadcrumbsDivider: '—';
+  }
+}

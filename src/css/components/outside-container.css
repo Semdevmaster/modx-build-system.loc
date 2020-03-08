@@ -1,0 +1,28 @@
+@responsive {
+  .outside-container {
+    position: relative;
+  }
+
+  .outside-container::after {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: -50vw;
+    left: -50vw;
+    display: block;
+    width: 100vw;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    content: '';
+    background-repeat: inherit;
+    background-position: inherit;
+    background-image: inherit;
+    background-color: inherit;
+    background-attachment: inherit;
+  }
+
+  .outside-container-none::after {
+    content: none
+  }
+}

@@ -1,0 +1,30 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ripple {
+  transition: background 0.5s;
+  background-repeat: no-repeat;
+  background-position: center;
+  will-change: background;
+}
+
+.ripple:hover {
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 1%,
+    transparent 1%
+  );
+  background-size: 15000%;
+}
+
+.ripple:active {
+  transition: background 0s;
+  background-size: 0;
+}

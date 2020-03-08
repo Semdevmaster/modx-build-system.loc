@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  min-width: 280px;
+  margin: 0 auto;
+}
+
+@screen sm {
+  .container {
+    max-width: theme('screens.sm');
+  }
+}
+
+@screen md {
+  .container {
+    max-width: theme('screens.md');
+  }
+}
+
+@screen lg {
+  .container {
+    max-width: theme('screens.lg');
+  }
+}
+
+@screen xl {
+  .container {
+    max-width: theme('screens.xl');
+  }
+}
