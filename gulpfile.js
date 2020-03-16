@@ -45,7 +45,7 @@ const browserSync = create()
 /****************************************************************************************************/
 const serve = cb => {
   browserSync.init({
-    proxy: 'project.loc',
+    proxy: 'modx-build-system.loc',
     files: [
       'www/assets/**/*.*',
       'www/core/elements/**/*.*'
@@ -75,16 +75,6 @@ const cms = {
     favicon: 'www/assets/img/favicons'
   }
 }
-/****************************************************************************************************/
-// HTML TASK
-/****************************************************************************************************/
-const html = () =>
-  src('src/elements/**/*.{html,php,tpl}', { base: 'src/elements', since: lastRun(html) })
-    // .pipe(debug({title:'HTML FILE'}))
-    .pipe(plumber())
-    .pipe(dest(cms.modx.html))
-exports.html = html
-
 /****************************************************************************************************/
 // CSS TASK
 /****************************************************************************************************/
@@ -116,21 +106,10 @@ exports.css = css
 /****************************************************************************************************/
 // JS TASK WITH BABEL AND WEBPACK
 /****************************************************************************************************/
-/*const js = () =>
+const js = () =>
   src('src/js/main.js')
     .pipe(plumber())
     .pipe(gulpwebpack(require('./webpack.config.js'), webpack))
-    .pipe(dest(cms.modx.js))
-exports.js = js*/
-/****************************************************************************************************/
-// JS TASK WITHOUT BABEL AND WEBPACK, BUT WITH TypeScript
-/****************************************************************************************************/
-const tsProject = ts.createProject('tsconfig.json')
-const js = () =>
-  src('src/js/**/*.ts')
-    .pipe(plumber())
-    .pipe(tsProject())
-    .pipe(gulpIf(!isDevelopment, uglify()))
     .pipe(dest(cms.modx.js))
 exports.js = js
 /****************************************************************************************************/
@@ -211,7 +190,7 @@ const config = {
       sprite: 'img/sprite.svg',
       render: {
         css: {
-          template: 'src/elements/chunks/utils/icon_template.html',
+          template: 'src/elements/chunks/utils/icon_template.tpl',
           dest: 'css/modules/sprite.css'
         }
       }
@@ -260,12 +239,6 @@ exports.faviconsGenerator = faviconsGenerator
 // WATCHERS
 /****************************************************************************************************/
 const watchers = cb => {
-  watch('src/elements/**/*.{html,php,tpl}', html)
-    .on('unlink', filepath => {
-      const filePathFromSrc = path.relative(path.resolve('src/elements'), filepath)
-      const destFilePath = path.resolve(cms.modx.html, filePathFromSrc)
-      fs.unlinkSync(destFilePath)
-    })
   watch('src/css/**/*.css', css)
   watch('src/js/**/*.{js,ts}', js)
   watch(['src/img/**/*.*', 'src/images/**/*.*', '!src/img/icons/*.*'], img)
@@ -301,7 +274,7 @@ const watchers = cb => {
 /****************************************************************************************************/
 // GLOBAL TASKS
 /****************************************************************************************************/
-const build = series(svgicons, parallel(html, css, js, libs, fonts, img))
+const build = series(svgicons, parallel(css, js, libs, fonts, img))
 exports.build = build
 const dev = series(build, parallel(serve, watchers))
 exports.dev = dev

@@ -1,6 +1,3690 @@
+.icon-add::before {
+  mask: url(../img/sprite.svg#add) no-repeat;
+}
+.icon-add-circle::before {
+  mask: url(../img/sprite.svg#add-circle) no-repeat;
+}
+.icon-add-circle-outline::before {
+  mask: url(../img/sprite.svg#add-circle-outline) no-repeat;
+}
+.icon-add-circle-sharp::before {
+  mask: url(../img/sprite.svg#add-circle-sharp) no-repeat;
+}
+.icon-add-outline::before {
+  mask: url(../img/sprite.svg#add-outline) no-repeat;
+}
+.icon-add-sharp::before {
+  mask: url(../img/sprite.svg#add-sharp) no-repeat;
+}
+.icon-airplane::before {
+  mask: url(../img/sprite.svg#airplane) no-repeat;
+}
+.icon-airplane-outline::before {
+  mask: url(../img/sprite.svg#airplane-outline) no-repeat;
+}
+.icon-airplane-sharp::before {
+  mask: url(../img/sprite.svg#airplane-sharp) no-repeat;
+}
+.icon-alarm::before {
+  mask: url(../img/sprite.svg#alarm) no-repeat;
+}
+.icon-alarm-outline::before {
+  mask: url(../img/sprite.svg#alarm-outline) no-repeat;
+}
+.icon-alarm-sharp::before {
+  mask: url(../img/sprite.svg#alarm-sharp) no-repeat;
+}
+.icon-albums::before {
+  mask: url(../img/sprite.svg#albums) no-repeat;
+}
+.icon-albums-outline::before {
+  mask: url(../img/sprite.svg#albums-outline) no-repeat;
+}
+.icon-albums-sharp::before {
+  mask: url(../img/sprite.svg#albums-sharp) no-repeat;
+}
+.icon-alert::before {
+  mask: url(../img/sprite.svg#alert) no-repeat;
+}
+.icon-alert-circle::before {
+  mask: url(../img/sprite.svg#alert-circle) no-repeat;
+}
+.icon-alert-circle-outline::before {
+  mask: url(../img/sprite.svg#alert-circle-outline) no-repeat;
+}
+.icon-alert-circle-sharp::before {
+  mask: url(../img/sprite.svg#alert-circle-sharp) no-repeat;
+}
+.icon-alert-outline::before {
+  mask: url(../img/sprite.svg#alert-outline) no-repeat;
+}
+.icon-alert-sharp::before {
+  mask: url(../img/sprite.svg#alert-sharp) no-repeat;
+}
+.icon-american-football::before {
+  mask: url(../img/sprite.svg#american-football) no-repeat;
+}
+.icon-american-football-outline::before {
+  mask: url(../img/sprite.svg#american-football-outline) no-repeat;
+}
+.icon-american-football-sharp::before {
+  mask: url(../img/sprite.svg#american-football-sharp) no-repeat;
+}
+.icon-analytics::before {
+  mask: url(../img/sprite.svg#analytics) no-repeat;
+}
+.icon-analytics-outline::before {
+  mask: url(../img/sprite.svg#analytics-outline) no-repeat;
+}
+.icon-analytics-sharp::before {
+  mask: url(../img/sprite.svg#analytics-sharp) no-repeat;
+}
+.icon-aperture::before {
+  mask: url(../img/sprite.svg#aperture) no-repeat;
+}
+.icon-aperture-outline::before {
+  mask: url(../img/sprite.svg#aperture-outline) no-repeat;
+}
+.icon-aperture-sharp::before {
+  mask: url(../img/sprite.svg#aperture-sharp) no-repeat;
+}
+.icon-apps::before {
+  mask: url(../img/sprite.svg#apps) no-repeat;
+}
+.icon-apps-outline::before {
+  mask: url(../img/sprite.svg#apps-outline) no-repeat;
+}
+.icon-apps-sharp::before {
+  mask: url(../img/sprite.svg#apps-sharp) no-repeat;
+}
+.icon-archive::before {
+  mask: url(../img/sprite.svg#archive) no-repeat;
+}
+.icon-archive-outline::before {
+  mask: url(../img/sprite.svg#archive-outline) no-repeat;
+}
+.icon-archive-sharp::before {
+  mask: url(../img/sprite.svg#archive-sharp) no-repeat;
+}
+.icon-arrow-back::before {
+  mask: url(../img/sprite.svg#arrow-back) no-repeat;
+}
+.icon-arrow-back-circle::before {
+  mask: url(../img/sprite.svg#arrow-back-circle) no-repeat;
+}
+.icon-arrow-back-circle-outline::before {
+  mask: url(../img/sprite.svg#arrow-back-circle-outline) no-repeat;
+}
+.icon-arrow-back-circle-sharp::before {
+  mask: url(../img/sprite.svg#arrow-back-circle-sharp) no-repeat;
+}
+.icon-arrow-back-outline::before {
+  mask: url(../img/sprite.svg#arrow-back-outline) no-repeat;
+}
+.icon-arrow-back-sharp::before {
+  mask: url(../img/sprite.svg#arrow-back-sharp) no-repeat;
+}
+.icon-arrow-down::before {
+  mask: url(../img/sprite.svg#arrow-down) no-repeat;
+}
+.icon-arrow-down-circle::before {
+  mask: url(../img/sprite.svg#arrow-down-circle) no-repeat;
+}
+.icon-arrow-down-circle-outline::before {
+  mask: url(../img/sprite.svg#arrow-down-circle-outline) no-repeat;
+}
+.icon-arrow-down-circle-sharp::before {
+  mask: url(../img/sprite.svg#arrow-down-circle-sharp) no-repeat;
+}
+.icon-arrow-down-outline::before {
+  mask: url(../img/sprite.svg#arrow-down-outline) no-repeat;
+}
+.icon-arrow-down-sharp::before {
+  mask: url(../img/sprite.svg#arrow-down-sharp) no-repeat;
+}
+.icon-arrow-forward::before {
+  mask: url(../img/sprite.svg#arrow-forward) no-repeat;
+}
+.icon-arrow-forward-circle::before {
+  mask: url(../img/sprite.svg#arrow-forward-circle) no-repeat;
+}
+.icon-arrow-forward-circle-outline::before {
+  mask: url(../img/sprite.svg#arrow-forward-circle-outline) no-repeat;
+}
+.icon-arrow-forward-circle-sharp::before {
+  mask: url(../img/sprite.svg#arrow-forward-circle-sharp) no-repeat;
+}
+.icon-arrow-forward-outline::before {
+  mask: url(../img/sprite.svg#arrow-forward-outline) no-repeat;
+}
+.icon-arrow-forward-sharp::before {
+  mask: url(../img/sprite.svg#arrow-forward-sharp) no-repeat;
+}
+.icon-arrow-redo::before {
+  mask: url(../img/sprite.svg#arrow-redo) no-repeat;
+}
+.icon-arrow-redo-circle::before {
+  mask: url(../img/sprite.svg#arrow-redo-circle) no-repeat;
+}
+.icon-arrow-redo-circle-outline::before {
+  mask: url(../img/sprite.svg#arrow-redo-circle-outline) no-repeat;
+}
+.icon-arrow-redo-circle-sharp::before {
+  mask: url(../img/sprite.svg#arrow-redo-circle-sharp) no-repeat;
+}
+.icon-arrow-redo-outline::before {
+  mask: url(../img/sprite.svg#arrow-redo-outline) no-repeat;
+}
+.icon-arrow-redo-sharp::before {
+  mask: url(../img/sprite.svg#arrow-redo-sharp) no-repeat;
+}
+.icon-arrow-undo::before {
+  mask: url(../img/sprite.svg#arrow-undo) no-repeat;
+}
+.icon-arrow-undo-circle::before {
+  mask: url(../img/sprite.svg#arrow-undo-circle) no-repeat;
+}
+.icon-arrow-undo-circle-outline::before {
+  mask: url(../img/sprite.svg#arrow-undo-circle-outline) no-repeat;
+}
+.icon-arrow-undo-circle-sharp::before {
+  mask: url(../img/sprite.svg#arrow-undo-circle-sharp) no-repeat;
+}
+.icon-arrow-undo-outline::before {
+  mask: url(../img/sprite.svg#arrow-undo-outline) no-repeat;
+}
+.icon-arrow-undo-sharp::before {
+  mask: url(../img/sprite.svg#arrow-undo-sharp) no-repeat;
+}
+.icon-arrow-up::before {
+  mask: url(../img/sprite.svg#arrow-up) no-repeat;
+}
+.icon-arrow-up-circle::before {
+  mask: url(../img/sprite.svg#arrow-up-circle) no-repeat;
+}
+.icon-arrow-up-circle-outline::before {
+  mask: url(../img/sprite.svg#arrow-up-circle-outline) no-repeat;
+}
+.icon-arrow-up-circle-sharp::before {
+  mask: url(../img/sprite.svg#arrow-up-circle-sharp) no-repeat;
+}
+.icon-arrow-up-outline::before {
+  mask: url(../img/sprite.svg#arrow-up-outline) no-repeat;
+}
+.icon-arrow-up-sharp::before {
+  mask: url(../img/sprite.svg#arrow-up-sharp) no-repeat;
+}
+.icon-at::before {
+  mask: url(../img/sprite.svg#at) no-repeat;
+}
+.icon-at-circle::before {
+  mask: url(../img/sprite.svg#at-circle) no-repeat;
+}
+.icon-at-circle-outline::before {
+  mask: url(../img/sprite.svg#at-circle-outline) no-repeat;
+}
+.icon-at-circle-sharp::before {
+  mask: url(../img/sprite.svg#at-circle-sharp) no-repeat;
+}
+.icon-at-outline::before {
+  mask: url(../img/sprite.svg#at-outline) no-repeat;
+}
+.icon-at-sharp::before {
+  mask: url(../img/sprite.svg#at-sharp) no-repeat;
+}
+.icon-attach::before {
+  mask: url(../img/sprite.svg#attach) no-repeat;
+}
+.icon-attach-outline::before {
+  mask: url(../img/sprite.svg#attach-outline) no-repeat;
+}
+.icon-attach-sharp::before {
+  mask: url(../img/sprite.svg#attach-sharp) no-repeat;
+}
+.icon-backspace::before {
+  mask: url(../img/sprite.svg#backspace) no-repeat;
+}
+.icon-backspace-outline::before {
+  mask: url(../img/sprite.svg#backspace-outline) no-repeat;
+}
+.icon-backspace-sharp::before {
+  mask: url(../img/sprite.svg#backspace-sharp) no-repeat;
+}
+.icon-bandage::before {
+  mask: url(../img/sprite.svg#bandage) no-repeat;
+}
+.icon-bandage-outline::before {
+  mask: url(../img/sprite.svg#bandage-outline) no-repeat;
+}
+.icon-bandage-sharp::before {
+  mask: url(../img/sprite.svg#bandage-sharp) no-repeat;
+}
+.icon-bar-chart::before {
+  mask: url(../img/sprite.svg#bar-chart) no-repeat;
+}
+.icon-bar-chart-outline::before {
+  mask: url(../img/sprite.svg#bar-chart-outline) no-repeat;
+}
+.icon-bar-chart-sharp::before {
+  mask: url(../img/sprite.svg#bar-chart-sharp) no-repeat;
+}
+.icon-barbell::before {
+  mask: url(../img/sprite.svg#barbell) no-repeat;
+}
+.icon-barbell-outline::before {
+  mask: url(../img/sprite.svg#barbell-outline) no-repeat;
+}
+.icon-barbell-sharp::before {
+  mask: url(../img/sprite.svg#barbell-sharp) no-repeat;
+}
+.icon-barcode::before {
+  mask: url(../img/sprite.svg#barcode) no-repeat;
+}
+.icon-barcode-outline::before {
+  mask: url(../img/sprite.svg#barcode-outline) no-repeat;
+}
+.icon-barcode-sharp::before {
+  mask: url(../img/sprite.svg#barcode-sharp) no-repeat;
+}
+.icon-baseball::before {
+  mask: url(../img/sprite.svg#baseball) no-repeat;
+}
+.icon-baseball-outline::before {
+  mask: url(../img/sprite.svg#baseball-outline) no-repeat;
+}
+.icon-baseball-sharp::before {
+  mask: url(../img/sprite.svg#baseball-sharp) no-repeat;
+}
+.icon-basket::before {
+  mask: url(../img/sprite.svg#basket) no-repeat;
+}
+.icon-basket-outline::before {
+  mask: url(../img/sprite.svg#basket-outline) no-repeat;
+}
+.icon-basket-sharp::before {
+  mask: url(../img/sprite.svg#basket-sharp) no-repeat;
+}
+.icon-basketball::before {
+  mask: url(../img/sprite.svg#basketball) no-repeat;
+}
+.icon-basketball-outline::before {
+  mask: url(../img/sprite.svg#basketball-outline) no-repeat;
+}
+.icon-basketball-sharp::before {
+  mask: url(../img/sprite.svg#basketball-sharp) no-repeat;
+}
+.icon-battery-charging::before {
+  mask: url(../img/sprite.svg#battery-charging) no-repeat;
+}
+.icon-battery-charging-outline::before {
+  mask: url(../img/sprite.svg#battery-charging-outline) no-repeat;
+}
+.icon-battery-charging-sharp::before {
+  mask: url(../img/sprite.svg#battery-charging-sharp) no-repeat;
+}
+.icon-battery-dead::before {
+  mask: url(../img/sprite.svg#battery-dead) no-repeat;
+}
+.icon-battery-dead-outline::before {
+  mask: url(../img/sprite.svg#battery-dead-outline) no-repeat;
+}
+.icon-battery-dead-sharp::before {
+  mask: url(../img/sprite.svg#battery-dead-sharp) no-repeat;
+}
+.icon-battery-full::before {
+  mask: url(../img/sprite.svg#battery-full) no-repeat;
+}
+.icon-battery-full-outline::before {
+  mask: url(../img/sprite.svg#battery-full-outline) no-repeat;
+}
+.icon-battery-full-sharp::before {
+  mask: url(../img/sprite.svg#battery-full-sharp) no-repeat;
+}
+.icon-battery-half::before {
+  mask: url(../img/sprite.svg#battery-half) no-repeat;
+}
+.icon-battery-half-outline::before {
+  mask: url(../img/sprite.svg#battery-half-outline) no-repeat;
+}
+.icon-battery-half-sharp::before {
+  mask: url(../img/sprite.svg#battery-half-sharp) no-repeat;
+}
+.icon-beaker::before {
+  mask: url(../img/sprite.svg#beaker) no-repeat;
+}
+.icon-beaker-outline::before {
+  mask: url(../img/sprite.svg#beaker-outline) no-repeat;
+}
+.icon-beaker-sharp::before {
+  mask: url(../img/sprite.svg#beaker-sharp) no-repeat;
+}
+.icon-bed::before {
+  mask: url(../img/sprite.svg#bed) no-repeat;
+}
+.icon-bed-outline::before {
+  mask: url(../img/sprite.svg#bed-outline) no-repeat;
+}
+.icon-bed-sharp::before {
+  mask: url(../img/sprite.svg#bed-sharp) no-repeat;
+}
+.icon-beer::before {
+  mask: url(../img/sprite.svg#beer) no-repeat;
+}
+.icon-beer-outline::before {
+  mask: url(../img/sprite.svg#beer-outline) no-repeat;
+}
+.icon-beer-sharp::before {
+  mask: url(../img/sprite.svg#beer-sharp) no-repeat;
+}
+.icon-bicycle::before {
+  mask: url(../img/sprite.svg#bicycle) no-repeat;
+}
+.icon-bicycle-outline::before {
+  mask: url(../img/sprite.svg#bicycle-outline) no-repeat;
+}
+.icon-bicycle-sharp::before {
+  mask: url(../img/sprite.svg#bicycle-sharp) no-repeat;
+}
+.icon-bluetooth::before {
+  mask: url(../img/sprite.svg#bluetooth) no-repeat;
+}
+.icon-bluetooth-outline::before {
+  mask: url(../img/sprite.svg#bluetooth-outline) no-repeat;
+}
+.icon-bluetooth-sharp::before {
+  mask: url(../img/sprite.svg#bluetooth-sharp) no-repeat;
+}
+.icon-boat::before {
+  mask: url(../img/sprite.svg#boat) no-repeat;
+}
+.icon-boat-outline::before {
+  mask: url(../img/sprite.svg#boat-outline) no-repeat;
+}
+.icon-boat-sharp::before {
+  mask: url(../img/sprite.svg#boat-sharp) no-repeat;
+}
+.icon-body::before {
+  mask: url(../img/sprite.svg#body) no-repeat;
+}
+.icon-body-outline::before {
+  mask: url(../img/sprite.svg#body-outline) no-repeat;
+}
+.icon-body-sharp::before {
+  mask: url(../img/sprite.svg#body-sharp) no-repeat;
+}
+.icon-bonfire::before {
+  mask: url(../img/sprite.svg#bonfire) no-repeat;
+}
+.icon-bonfire-outline::before {
+  mask: url(../img/sprite.svg#bonfire-outline) no-repeat;
+}
+.icon-bonfire-sharp::before {
+  mask: url(../img/sprite.svg#bonfire-sharp) no-repeat;
+}
+.icon-book::before {
+  mask: url(../img/sprite.svg#book) no-repeat;
+}
+.icon-book-outline::before {
+  mask: url(../img/sprite.svg#book-outline) no-repeat;
+}
+.icon-book-sharp::before {
+  mask: url(../img/sprite.svg#book-sharp) no-repeat;
+}
+.icon-bookmark::before {
+  mask: url(../img/sprite.svg#bookmark) no-repeat;
+}
+.icon-bookmark-outline::before {
+  mask: url(../img/sprite.svg#bookmark-outline) no-repeat;
+}
+.icon-bookmark-sharp::before {
+  mask: url(../img/sprite.svg#bookmark-sharp) no-repeat;
+}
+.icon-bookmarks::before {
+  mask: url(../img/sprite.svg#bookmarks) no-repeat;
+}
+.icon-bookmarks-outline::before {
+  mask: url(../img/sprite.svg#bookmarks-outline) no-repeat;
+}
+.icon-bookmarks-sharp::before {
+  mask: url(../img/sprite.svg#bookmarks-sharp) no-repeat;
+}
+.icon-briefcase::before {
+  mask: url(../img/sprite.svg#briefcase) no-repeat;
+}
+.icon-briefcase-outline::before {
+  mask: url(../img/sprite.svg#briefcase-outline) no-repeat;
+}
+.icon-briefcase-sharp::before {
+  mask: url(../img/sprite.svg#briefcase-sharp) no-repeat;
+}
+.icon-browsers::before {
+  mask: url(../img/sprite.svg#browsers) no-repeat;
+}
+.icon-browsers-outline::before {
+  mask: url(../img/sprite.svg#browsers-outline) no-repeat;
+}
+.icon-browsers-sharp::before {
+  mask: url(../img/sprite.svg#browsers-sharp) no-repeat;
+}
+.icon-brush::before {
+  mask: url(../img/sprite.svg#brush) no-repeat;
+}
+.icon-brush-outline::before {
+  mask: url(../img/sprite.svg#brush-outline) no-repeat;
+}
+.icon-brush-sharp::before {
+  mask: url(../img/sprite.svg#brush-sharp) no-repeat;
+}
+.icon-bug::before {
+  mask: url(../img/sprite.svg#bug) no-repeat;
+}
+.icon-bug-outline::before {
+  mask: url(../img/sprite.svg#bug-outline) no-repeat;
+}
+.icon-bug-sharp::before {
+  mask: url(../img/sprite.svg#bug-sharp) no-repeat;
+}
+.icon-build::before {
+  mask: url(../img/sprite.svg#build) no-repeat;
+}
+.icon-build-outline::before {
+  mask: url(../img/sprite.svg#build-outline) no-repeat;
+}
+.icon-build-sharp::before {
+  mask: url(../img/sprite.svg#build-sharp) no-repeat;
+}
+.icon-bulb::before {
+  mask: url(../img/sprite.svg#bulb) no-repeat;
+}
+.icon-bulb-outline::before {
+  mask: url(../img/sprite.svg#bulb-outline) no-repeat;
+}
+.icon-bulb-sharp::before {
+  mask: url(../img/sprite.svg#bulb-sharp) no-repeat;
+}
+.icon-bus::before {
+  mask: url(../img/sprite.svg#bus) no-repeat;
+}
+.icon-bus-outline::before {
+  mask: url(../img/sprite.svg#bus-outline) no-repeat;
+}
+.icon-bus-sharp::before {
+  mask: url(../img/sprite.svg#bus-sharp) no-repeat;
+}
+.icon-business::before {
+  mask: url(../img/sprite.svg#business) no-repeat;
+}
+.icon-business-outline::before {
+  mask: url(../img/sprite.svg#business-outline) no-repeat;
+}
+.icon-business-sharp::before {
+  mask: url(../img/sprite.svg#business-sharp) no-repeat;
+}
+.icon-cafe::before {
+  mask: url(../img/sprite.svg#cafe) no-repeat;
+}
+.icon-cafe-outline::before {
+  mask: url(../img/sprite.svg#cafe-outline) no-repeat;
+}
+.icon-cafe-sharp::before {
+  mask: url(../img/sprite.svg#cafe-sharp) no-repeat;
+}
+.icon-calculator::before {
+  mask: url(../img/sprite.svg#calculator) no-repeat;
+}
+.icon-calculator-outline::before {
+  mask: url(../img/sprite.svg#calculator-outline) no-repeat;
+}
+.icon-calculator-sharp::before {
+  mask: url(../img/sprite.svg#calculator-sharp) no-repeat;
+}
+.icon-calendar::before {
+  mask: url(../img/sprite.svg#calendar) no-repeat;
+}
+.icon-calendar-outline::before {
+  mask: url(../img/sprite.svg#calendar-outline) no-repeat;
+}
+.icon-calendar-sharp::before {
+  mask: url(../img/sprite.svg#calendar-sharp) no-repeat;
+}
+.icon-call::before {
+  mask: url(../img/sprite.svg#call) no-repeat;
+}
+.icon-call-outline::before {
+  mask: url(../img/sprite.svg#call-outline) no-repeat;
+}
+.icon-call-sharp::before {
+  mask: url(../img/sprite.svg#call-sharp) no-repeat;
+}
+.icon-camera::before {
+  mask: url(../img/sprite.svg#camera) no-repeat;
+}
+.icon-camera-outline::before {
+  mask: url(../img/sprite.svg#camera-outline) no-repeat;
+}
+.icon-camera-reverse::before {
+  mask: url(../img/sprite.svg#camera-reverse) no-repeat;
+}
+.icon-camera-reverse-outline::before {
+  mask: url(../img/sprite.svg#camera-reverse-outline) no-repeat;
+}
+.icon-camera-reverse-sharp::before {
+  mask: url(../img/sprite.svg#camera-reverse-sharp) no-repeat;
+}
+.icon-camera-sharp::before {
+  mask: url(../img/sprite.svg#camera-sharp) no-repeat;
+}
+.icon-car::before {
+  mask: url(../img/sprite.svg#car) no-repeat;
+}
+.icon-car-outline::before {
+  mask: url(../img/sprite.svg#car-outline) no-repeat;
+}
+.icon-car-sharp::before {
+  mask: url(../img/sprite.svg#car-sharp) no-repeat;
+}
+.icon-car-sport::before {
+  mask: url(../img/sprite.svg#car-sport) no-repeat;
+}
+.icon-car-sport-outline::before {
+  mask: url(../img/sprite.svg#car-sport-outline) no-repeat;
+}
+.icon-car-sport-sharp::before {
+  mask: url(../img/sprite.svg#car-sport-sharp) no-repeat;
+}
+.icon-card::before {
+  mask: url(../img/sprite.svg#card) no-repeat;
+}
+.icon-card-outline::before {
+  mask: url(../img/sprite.svg#card-outline) no-repeat;
+}
+.icon-card-sharp::before {
+  mask: url(../img/sprite.svg#card-sharp) no-repeat;
+}
+.icon-caret-back::before {
+  mask: url(../img/sprite.svg#caret-back) no-repeat;
+}
+.icon-caret-back-circle::before {
+  mask: url(../img/sprite.svg#caret-back-circle) no-repeat;
+}
+.icon-caret-back-circle-outline::before {
+  mask: url(../img/sprite.svg#caret-back-circle-outline) no-repeat;
+}
+.icon-caret-back-circle-sharp::before {
+  mask: url(../img/sprite.svg#caret-back-circle-sharp) no-repeat;
+}
+.icon-caret-back-outline::before {
+  mask: url(../img/sprite.svg#caret-back-outline) no-repeat;
+}
+.icon-caret-back-sharp::before {
+  mask: url(../img/sprite.svg#caret-back-sharp) no-repeat;
+}
+.icon-caret-down::before {
+  mask: url(../img/sprite.svg#caret-down) no-repeat;
+}
+.icon-caret-down-circle::before {
+  mask: url(../img/sprite.svg#caret-down-circle) no-repeat;
+}
+.icon-caret-down-circle-outline::before {
+  mask: url(../img/sprite.svg#caret-down-circle-outline) no-repeat;
+}
+.icon-caret-down-circle-sharp::before {
+  mask: url(../img/sprite.svg#caret-down-circle-sharp) no-repeat;
+}
+.icon-caret-down-outline::before {
+  mask: url(../img/sprite.svg#caret-down-outline) no-repeat;
+}
+.icon-caret-down-sharp::before {
+  mask: url(../img/sprite.svg#caret-down-sharp) no-repeat;
+}
+.icon-caret-forward::before {
+  mask: url(../img/sprite.svg#caret-forward) no-repeat;
+}
+.icon-caret-forward-circle::before {
+  mask: url(../img/sprite.svg#caret-forward-circle) no-repeat;
+}
+.icon-caret-forward-circle-outline::before {
+  mask: url(../img/sprite.svg#caret-forward-circle-outline) no-repeat;
+}
+.icon-caret-forward-circle-sharp::before {
+  mask: url(../img/sprite.svg#caret-forward-circle-sharp) no-repeat;
+}
+.icon-caret-forward-outline::before {
+  mask: url(../img/sprite.svg#caret-forward-outline) no-repeat;
+}
+.icon-caret-forward-sharp::before {
+  mask: url(../img/sprite.svg#caret-forward-sharp) no-repeat;
+}
+.icon-caret-up::before {
+  mask: url(../img/sprite.svg#caret-up) no-repeat;
+}
+.icon-caret-up-circle::before {
+  mask: url(../img/sprite.svg#caret-up-circle) no-repeat;
+}
+.icon-caret-up-circle-outline::before {
+  mask: url(../img/sprite.svg#caret-up-circle-outline) no-repeat;
+}
+.icon-caret-up-circle-sharp::before {
+  mask: url(../img/sprite.svg#caret-up-circle-sharp) no-repeat;
+}
+.icon-caret-up-outline::before {
+  mask: url(../img/sprite.svg#caret-up-outline) no-repeat;
+}
+.icon-caret-up-sharp::before {
+  mask: url(../img/sprite.svg#caret-up-sharp) no-repeat;
+}
+.icon-cart::before {
+  mask: url(../img/sprite.svg#cart) no-repeat;
+}
+.icon-cart-outline::before {
+  mask: url(../img/sprite.svg#cart-outline) no-repeat;
+}
+.icon-cart-sharp::before {
+  mask: url(../img/sprite.svg#cart-sharp) no-repeat;
+}
+.icon-cash::before {
+  mask: url(../img/sprite.svg#cash) no-repeat;
+}
+.icon-cash-outline::before {
+  mask: url(../img/sprite.svg#cash-outline) no-repeat;
+}
+.icon-cash-sharp::before {
+  mask: url(../img/sprite.svg#cash-sharp) no-repeat;
+}
+.icon-cellular::before {
+  mask: url(../img/sprite.svg#cellular) no-repeat;
+}
+.icon-cellular-outline::before {
+  mask: url(../img/sprite.svg#cellular-outline) no-repeat;
+}
+.icon-cellular-sharp::before {
+  mask: url(../img/sprite.svg#cellular-sharp) no-repeat;
+}
+.icon-chatbox::before {
+  mask: url(../img/sprite.svg#chatbox) no-repeat;
+}
+.icon-chatbox-ellipses::before {
+  mask: url(../img/sprite.svg#chatbox-ellipses) no-repeat;
+}
+.icon-chatbox-ellipses-outline::before {
+  mask: url(../img/sprite.svg#chatbox-ellipses-outline) no-repeat;
+}
+.icon-chatbox-ellipses-sharp::before {
+  mask: url(../img/sprite.svg#chatbox-ellipses-sharp) no-repeat;
+}
+.icon-chatbox-outline::before {
+  mask: url(../img/sprite.svg#chatbox-outline) no-repeat;
+}
+.icon-chatbox-sharp::before {
+  mask: url(../img/sprite.svg#chatbox-sharp) no-repeat;
+}
+.icon-chatbubble::before {
+  mask: url(../img/sprite.svg#chatbubble) no-repeat;
+}
+.icon-chatbubble-ellipses::before {
+  mask: url(../img/sprite.svg#chatbubble-ellipses) no-repeat;
+}
+.icon-chatbubble-ellipses-outline::before {
+  mask: url(../img/sprite.svg#chatbubble-ellipses-outline) no-repeat;
+}
+.icon-chatbubble-ellipses-sharp::before {
+  mask: url(../img/sprite.svg#chatbubble-ellipses-sharp) no-repeat;
+}
+.icon-chatbubble-outline::before {
+  mask: url(../img/sprite.svg#chatbubble-outline) no-repeat;
+}
+.icon-chatbubble-sharp::before {
+  mask: url(../img/sprite.svg#chatbubble-sharp) no-repeat;
+}
+.icon-chatbubbles::before {
+  mask: url(../img/sprite.svg#chatbubbles) no-repeat;
+}
+.icon-chatbubbles-outline::before {
+  mask: url(../img/sprite.svg#chatbubbles-outline) no-repeat;
+}
+.icon-chatbubbles-sharp::before {
+  mask: url(../img/sprite.svg#chatbubbles-sharp) no-repeat;
+}
+.icon-checkbox::before {
+  mask: url(../img/sprite.svg#checkbox) no-repeat;
+}
+.icon-checkbox-outline::before {
+  mask: url(../img/sprite.svg#checkbox-outline) no-repeat;
+}
+.icon-checkbox-sharp::before {
+  mask: url(../img/sprite.svg#checkbox-sharp) no-repeat;
+}
+.icon-checkmark::before {
+  mask: url(../img/sprite.svg#checkmark) no-repeat;
+}
+.icon-checkmark-circle::before {
+  mask: url(../img/sprite.svg#checkmark-circle) no-repeat;
+}
+.icon-checkmark-circle-outline::before {
+  mask: url(../img/sprite.svg#checkmark-circle-outline) no-repeat;
+}
+.icon-checkmark-circle-sharp::before {
+  mask: url(../img/sprite.svg#checkmark-circle-sharp) no-repeat;
+}
+.icon-checkmark-done::before {
+  mask: url(../img/sprite.svg#checkmark-done) no-repeat;
+}
+.icon-checkmark-done-circle::before {
+  mask: url(../img/sprite.svg#checkmark-done-circle) no-repeat;
+}
+.icon-checkmark-done-circle-outline::before {
+  mask: url(../img/sprite.svg#checkmark-done-circle-outline) no-repeat;
+}
+.icon-checkmark-done-circle-sharp::before {
+  mask: url(../img/sprite.svg#checkmark-done-circle-sharp) no-repeat;
+}
+.icon-checkmark-done-outline::before {
+  mask: url(../img/sprite.svg#checkmark-done-outline) no-repeat;
+}
+.icon-checkmark-done-sharp::before {
+  mask: url(../img/sprite.svg#checkmark-done-sharp) no-repeat;
+}
+.icon-checkmark-outline::before {
+  mask: url(../img/sprite.svg#checkmark-outline) no-repeat;
+}
+.icon-checkmark-sharp::before {
+  mask: url(../img/sprite.svg#checkmark-sharp) no-repeat;
+}
+.icon-chevron-back::before {
+  mask: url(../img/sprite.svg#chevron-back) no-repeat;
+}
+.icon-chevron-back-circle::before {
+  mask: url(../img/sprite.svg#chevron-back-circle) no-repeat;
+}
+.icon-chevron-back-circle-outline::before {
+  mask: url(../img/sprite.svg#chevron-back-circle-outline) no-repeat;
+}
+.icon-chevron-back-circle-sharp::before {
+  mask: url(../img/sprite.svg#chevron-back-circle-sharp) no-repeat;
+}
+.icon-chevron-back-outline::before {
+  mask: url(../img/sprite.svg#chevron-back-outline) no-repeat;
+}
+.icon-chevron-back-sharp::before {
+  mask: url(../img/sprite.svg#chevron-back-sharp) no-repeat;
+}
+.icon-chevron-down::before {
+  mask: url(../img/sprite.svg#chevron-down) no-repeat;
+}
+.icon-chevron-down-circle::before {
+  mask: url(../img/sprite.svg#chevron-down-circle) no-repeat;
+}
+.icon-chevron-down-circle-outline::before {
+  mask: url(../img/sprite.svg#chevron-down-circle-outline) no-repeat;
+}
+.icon-chevron-down-circle-sharp::before {
+  mask: url(../img/sprite.svg#chevron-down-circle-sharp) no-repeat;
+}
+.icon-chevron-down-outline::before {
+  mask: url(../img/sprite.svg#chevron-down-outline) no-repeat;
+}
+.icon-chevron-down-sharp::before {
+  mask: url(../img/sprite.svg#chevron-down-sharp) no-repeat;
+}
+.icon-chevron-forward::before {
+  mask: url(../img/sprite.svg#chevron-forward) no-repeat;
+}
+.icon-chevron-forward-circle::before {
+  mask: url(../img/sprite.svg#chevron-forward-circle) no-repeat;
+}
+.icon-chevron-forward-circle-outline::before {
+  mask: url(../img/sprite.svg#chevron-forward-circle-outline) no-repeat;
+}
+.icon-chevron-forward-circle-sharp::before {
+  mask: url(../img/sprite.svg#chevron-forward-circle-sharp) no-repeat;
+}
+.icon-chevron-forward-outline::before {
+  mask: url(../img/sprite.svg#chevron-forward-outline) no-repeat;
+}
+.icon-chevron-forward-sharp::before {
+  mask: url(../img/sprite.svg#chevron-forward-sharp) no-repeat;
+}
+.icon-chevron-up::before {
+  mask: url(../img/sprite.svg#chevron-up) no-repeat;
+}
+.icon-chevron-up-circle::before {
+  mask: url(../img/sprite.svg#chevron-up-circle) no-repeat;
+}
+.icon-chevron-up-circle-outline::before {
+  mask: url(../img/sprite.svg#chevron-up-circle-outline) no-repeat;
+}
+.icon-chevron-up-circle-sharp::before {
+  mask: url(../img/sprite.svg#chevron-up-circle-sharp) no-repeat;
+}
+.icon-chevron-up-outline::before {
+  mask: url(../img/sprite.svg#chevron-up-outline) no-repeat;
+}
+.icon-chevron-up-sharp::before {
+  mask: url(../img/sprite.svg#chevron-up-sharp) no-repeat;
+}
+.icon-clipboard::before {
+  mask: url(../img/sprite.svg#clipboard) no-repeat;
+}
+.icon-clipboard-outline::before {
+  mask: url(../img/sprite.svg#clipboard-outline) no-repeat;
+}
+.icon-clipboard-sharp::before {
+  mask: url(../img/sprite.svg#clipboard-sharp) no-repeat;
+}
+.icon-close::before {
+  mask: url(../img/sprite.svg#close) no-repeat;
+}
+.icon-close-circle::before {
+  mask: url(../img/sprite.svg#close-circle) no-repeat;
+}
+.icon-close-circle-outline::before {
+  mask: url(../img/sprite.svg#close-circle-outline) no-repeat;
+}
+.icon-close-circle-sharp::before {
+  mask: url(../img/sprite.svg#close-circle-sharp) no-repeat;
+}
+.icon-close-outline::before {
+  mask: url(../img/sprite.svg#close-outline) no-repeat;
+}
+.icon-close-sharp::before {
+  mask: url(../img/sprite.svg#close-sharp) no-repeat;
+}
+.icon-cloud::before {
+  mask: url(../img/sprite.svg#cloud) no-repeat;
+}
+.icon-cloud-circle::before {
+  mask: url(../img/sprite.svg#cloud-circle) no-repeat;
+}
+.icon-cloud-circle-outline::before {
+  mask: url(../img/sprite.svg#cloud-circle-outline) no-repeat;
+}
+.icon-cloud-circle-sharp::before {
+  mask: url(../img/sprite.svg#cloud-circle-sharp) no-repeat;
+}
+.icon-cloud-done::before {
+  mask: url(../img/sprite.svg#cloud-done) no-repeat;
+}
+.icon-cloud-done-outline::before {
+  mask: url(../img/sprite.svg#cloud-done-outline) no-repeat;
+}
+.icon-cloud-done-sharp::before {
+  mask: url(../img/sprite.svg#cloud-done-sharp) no-repeat;
+}
+.icon-cloud-download::before {
+  mask: url(../img/sprite.svg#cloud-download) no-repeat;
+}
+.icon-cloud-download-outline::before {
+  mask: url(../img/sprite.svg#cloud-download-outline) no-repeat;
+}
+.icon-cloud-download-sharp::before {
+  mask: url(../img/sprite.svg#cloud-download-sharp) no-repeat;
+}
+.icon-cloud-offline::before {
+  mask: url(../img/sprite.svg#cloud-offline) no-repeat;
+}
+.icon-cloud-offline-outline::before {
+  mask: url(../img/sprite.svg#cloud-offline-outline) no-repeat;
+}
+.icon-cloud-offline-sharp::before {
+  mask: url(../img/sprite.svg#cloud-offline-sharp) no-repeat;
+}
+.icon-cloud-outline::before {
+  mask: url(../img/sprite.svg#cloud-outline) no-repeat;
+}
+.icon-cloud-sharp::before {
+  mask: url(../img/sprite.svg#cloud-sharp) no-repeat;
+}
+.icon-cloud-upload::before {
+  mask: url(../img/sprite.svg#cloud-upload) no-repeat;
+}
+.icon-cloud-upload-outline::before {
+  mask: url(../img/sprite.svg#cloud-upload-outline) no-repeat;
+}
+.icon-cloud-upload-sharp::before {
+  mask: url(../img/sprite.svg#cloud-upload-sharp) no-repeat;
+}
+.icon-cloudy::before {
+  mask: url(../img/sprite.svg#cloudy) no-repeat;
+}
+.icon-cloudy-night::before {
+  mask: url(../img/sprite.svg#cloudy-night) no-repeat;
+}
+.icon-cloudy-night-outline::before {
+  mask: url(../img/sprite.svg#cloudy-night-outline) no-repeat;
+}
+.icon-cloudy-night-sharp::before {
+  mask: url(../img/sprite.svg#cloudy-night-sharp) no-repeat;
+}
+.icon-cloudy-outline::before {
+  mask: url(../img/sprite.svg#cloudy-outline) no-repeat;
+}
+.icon-cloudy-sharp::before {
+  mask: url(../img/sprite.svg#cloudy-sharp) no-repeat;
+}
+.icon-code::before {
+  mask: url(../img/sprite.svg#code) no-repeat;
+}
+.icon-code-download::before {
+  mask: url(../img/sprite.svg#code-download) no-repeat;
+}
+.icon-code-download-outline::before {
+  mask: url(../img/sprite.svg#code-download-outline) no-repeat;
+}
+.icon-code-download-sharp::before {
+  mask: url(../img/sprite.svg#code-download-sharp) no-repeat;
+}
+.icon-code-outline::before {
+  mask: url(../img/sprite.svg#code-outline) no-repeat;
+}
+.icon-code-sharp::before {
+  mask: url(../img/sprite.svg#code-sharp) no-repeat;
+}
+.icon-code-slash::before {
+  mask: url(../img/sprite.svg#code-slash) no-repeat;
+}
+.icon-code-slash-outline::before {
+  mask: url(../img/sprite.svg#code-slash-outline) no-repeat;
+}
+.icon-code-slash-sharp::before {
+  mask: url(../img/sprite.svg#code-slash-sharp) no-repeat;
+}
+.icon-code-working::before {
+  mask: url(../img/sprite.svg#code-working) no-repeat;
+}
+.icon-code-working-outline::before {
+  mask: url(../img/sprite.svg#code-working-outline) no-repeat;
+}
+.icon-code-working-sharp::before {
+  mask: url(../img/sprite.svg#code-working-sharp) no-repeat;
+}
 .icon-cog::before {
   mask: url(../img/sprite.svg#cog) no-repeat;
 }
+.icon-cog-outline::before {
+  mask: url(../img/sprite.svg#cog-outline) no-repeat;
+}
+.icon-cog-sharp::before {
+  mask: url(../img/sprite.svg#cog-sharp) no-repeat;
+}
+.icon-color-fill::before {
+  mask: url(../img/sprite.svg#color-fill) no-repeat;
+}
+.icon-color-fill-outline::before {
+  mask: url(../img/sprite.svg#color-fill-outline) no-repeat;
+}
+.icon-color-fill-sharp::before {
+  mask: url(../img/sprite.svg#color-fill-sharp) no-repeat;
+}
+.icon-color-filter::before {
+  mask: url(../img/sprite.svg#color-filter) no-repeat;
+}
+.icon-color-filter-outline::before {
+  mask: url(../img/sprite.svg#color-filter-outline) no-repeat;
+}
+.icon-color-filter-sharp::before {
+  mask: url(../img/sprite.svg#color-filter-sharp) no-repeat;
+}
+.icon-color-palette::before {
+  mask: url(../img/sprite.svg#color-palette) no-repeat;
+}
+.icon-color-palette-outline::before {
+  mask: url(../img/sprite.svg#color-palette-outline) no-repeat;
+}
+.icon-color-palette-sharp::before {
+  mask: url(../img/sprite.svg#color-palette-sharp) no-repeat;
+}
+.icon-color-wand::before {
+  mask: url(../img/sprite.svg#color-wand) no-repeat;
+}
+.icon-color-wand-outline::before {
+  mask: url(../img/sprite.svg#color-wand-outline) no-repeat;
+}
+.icon-color-wand-sharp::before {
+  mask: url(../img/sprite.svg#color-wand-sharp) no-repeat;
+}
+.icon-compass::before {
+  mask: url(../img/sprite.svg#compass) no-repeat;
+}
+.icon-compass-outline::before {
+  mask: url(../img/sprite.svg#compass-outline) no-repeat;
+}
+.icon-compass-sharp::before {
+  mask: url(../img/sprite.svg#compass-sharp) no-repeat;
+}
+.icon-construct::before {
+  mask: url(../img/sprite.svg#construct) no-repeat;
+}
+.icon-construct-outline::before {
+  mask: url(../img/sprite.svg#construct-outline) no-repeat;
+}
+.icon-construct-sharp::before {
+  mask: url(../img/sprite.svg#construct-sharp) no-repeat;
+}
+.icon-contract::before {
+  mask: url(../img/sprite.svg#contract) no-repeat;
+}
+.icon-contract-outline::before {
+  mask: url(../img/sprite.svg#contract-outline) no-repeat;
+}
+.icon-contract-sharp::before {
+  mask: url(../img/sprite.svg#contract-sharp) no-repeat;
+}
+.icon-contrast::before {
+  mask: url(../img/sprite.svg#contrast) no-repeat;
+}
+.icon-contrast-outline::before {
+  mask: url(../img/sprite.svg#contrast-outline) no-repeat;
+}
+.icon-contrast-sharp::before {
+  mask: url(../img/sprite.svg#contrast-sharp) no-repeat;
+}
+.icon-copy::before {
+  mask: url(../img/sprite.svg#copy) no-repeat;
+}
+.icon-copy-outline::before {
+  mask: url(../img/sprite.svg#copy-outline) no-repeat;
+}
+.icon-copy-sharp::before {
+  mask: url(../img/sprite.svg#copy-sharp) no-repeat;
+}
+.icon-create::before {
+  mask: url(../img/sprite.svg#create) no-repeat;
+}
+.icon-create-outline::before {
+  mask: url(../img/sprite.svg#create-outline) no-repeat;
+}
+.icon-create-sharp::before {
+  mask: url(../img/sprite.svg#create-sharp) no-repeat;
+}
+.icon-crop::before {
+  mask: url(../img/sprite.svg#crop) no-repeat;
+}
+.icon-crop-outline::before {
+  mask: url(../img/sprite.svg#crop-outline) no-repeat;
+}
+.icon-crop-sharp::before {
+  mask: url(../img/sprite.svg#crop-sharp) no-repeat;
+}
+.icon-cube::before {
+  mask: url(../img/sprite.svg#cube) no-repeat;
+}
+.icon-cube-outline::before {
+  mask: url(../img/sprite.svg#cube-outline) no-repeat;
+}
+.icon-cube-sharp::before {
+  mask: url(../img/sprite.svg#cube-sharp) no-repeat;
+}
+.icon-cut::before {
+  mask: url(../img/sprite.svg#cut) no-repeat;
+}
+.icon-cut-outline::before {
+  mask: url(../img/sprite.svg#cut-outline) no-repeat;
+}
+.icon-cut-sharp::before {
+  mask: url(../img/sprite.svg#cut-sharp) no-repeat;
+}
+.icon-desktop::before {
+  mask: url(../img/sprite.svg#desktop) no-repeat;
+}
+.icon-desktop-outline::before {
+  mask: url(../img/sprite.svg#desktop-outline) no-repeat;
+}
+.icon-desktop-sharp::before {
+  mask: url(../img/sprite.svg#desktop-sharp) no-repeat;
+}
+.icon-disc::before {
+  mask: url(../img/sprite.svg#disc) no-repeat;
+}
+.icon-disc-outline::before {
+  mask: url(../img/sprite.svg#disc-outline) no-repeat;
+}
+.icon-disc-sharp::before {
+  mask: url(../img/sprite.svg#disc-sharp) no-repeat;
+}
+.icon-document::before {
+  mask: url(../img/sprite.svg#document) no-repeat;
+}
+.icon-document-attach::before {
+  mask: url(../img/sprite.svg#document-attach) no-repeat;
+}
+.icon-document-attach-outline::before {
+  mask: url(../img/sprite.svg#document-attach-outline) no-repeat;
+}
+.icon-document-attach-sharp::before {
+  mask: url(../img/sprite.svg#document-attach-sharp) no-repeat;
+}
+.icon-document-outline::before {
+  mask: url(../img/sprite.svg#document-outline) no-repeat;
+}
+.icon-document-sharp::before {
+  mask: url(../img/sprite.svg#document-sharp) no-repeat;
+}
+.icon-document-text::before {
+  mask: url(../img/sprite.svg#document-text) no-repeat;
+}
+.icon-document-text-outline::before {
+  mask: url(../img/sprite.svg#document-text-outline) no-repeat;
+}
+.icon-document-text-sharp::before {
+  mask: url(../img/sprite.svg#document-text-sharp) no-repeat;
+}
+.icon-documents::before {
+  mask: url(../img/sprite.svg#documents) no-repeat;
+}
+.icon-documents-outline::before {
+  mask: url(../img/sprite.svg#documents-outline) no-repeat;
+}
+.icon-documents-sharp::before {
+  mask: url(../img/sprite.svg#documents-sharp) no-repeat;
+}
+.icon-download::before {
+  mask: url(../img/sprite.svg#download) no-repeat;
+}
+.icon-download-outline::before {
+  mask: url(../img/sprite.svg#download-outline) no-repeat;
+}
+.icon-download-sharp::before {
+  mask: url(../img/sprite.svg#download-sharp) no-repeat;
+}
+.icon-duplicate::before {
+  mask: url(../img/sprite.svg#duplicate) no-repeat;
+}
+.icon-duplicate-outline::before {
+  mask: url(../img/sprite.svg#duplicate-outline) no-repeat;
+}
+.icon-duplicate-sharp::before {
+  mask: url(../img/sprite.svg#duplicate-sharp) no-repeat;
+}
+.icon-ear::before {
+  mask: url(../img/sprite.svg#ear) no-repeat;
+}
+.icon-ear-outline::before {
+  mask: url(../img/sprite.svg#ear-outline) no-repeat;
+}
+.icon-ear-sharp::before {
+  mask: url(../img/sprite.svg#ear-sharp) no-repeat;
+}
+.icon-earth::before {
+  mask: url(../img/sprite.svg#earth) no-repeat;
+}
+.icon-earth-outline::before {
+  mask: url(../img/sprite.svg#earth-outline) no-repeat;
+}
+.icon-earth-sharp::before {
+  mask: url(../img/sprite.svg#earth-sharp) no-repeat;
+}
+.icon-easel::before {
+  mask: url(../img/sprite.svg#easel) no-repeat;
+}
+.icon-easel-outline::before {
+  mask: url(../img/sprite.svg#easel-outline) no-repeat;
+}
+.icon-easel-sharp::before {
+  mask: url(../img/sprite.svg#easel-sharp) no-repeat;
+}
+.icon-egg::before {
+  mask: url(../img/sprite.svg#egg) no-repeat;
+}
+.icon-egg-outline::before {
+  mask: url(../img/sprite.svg#egg-outline) no-repeat;
+}
+.icon-egg-sharp::before {
+  mask: url(../img/sprite.svg#egg-sharp) no-repeat;
+}
+.icon-ellipse::before {
+  mask: url(../img/sprite.svg#ellipse) no-repeat;
+}
+.icon-ellipse-outline::before {
+  mask: url(../img/sprite.svg#ellipse-outline) no-repeat;
+}
+.icon-ellipse-sharp::before {
+  mask: url(../img/sprite.svg#ellipse-sharp) no-repeat;
+}
+.icon-ellipsis-horizontal::before {
+  mask: url(../img/sprite.svg#ellipsis-horizontal) no-repeat;
+}
+.icon-ellipsis-horizontal-circle::before {
+  mask: url(../img/sprite.svg#ellipsis-horizontal-circle) no-repeat;
+}
+.icon-ellipsis-horizontal-circle-outline::before {
+  mask: url(../img/sprite.svg#ellipsis-horizontal-circle-outline) no-repeat;
+}
+.icon-ellipsis-horizontal-circle-sharp::before {
+  mask: url(../img/sprite.svg#ellipsis-horizontal-circle-sharp) no-repeat;
+}
+.icon-ellipsis-horizontal-outline::before {
+  mask: url(../img/sprite.svg#ellipsis-horizontal-outline) no-repeat;
+}
+.icon-ellipsis-horizontal-sharp::before {
+  mask: url(../img/sprite.svg#ellipsis-horizontal-sharp) no-repeat;
+}
+.icon-ellipsis-vertical::before {
+  mask: url(../img/sprite.svg#ellipsis-vertical) no-repeat;
+}
+.icon-ellipsis-vertical-circle::before {
+  mask: url(../img/sprite.svg#ellipsis-vertical-circle) no-repeat;
+}
+.icon-ellipsis-vertical-circle-outline::before {
+  mask: url(../img/sprite.svg#ellipsis-vertical-circle-outline) no-repeat;
+}
+.icon-ellipsis-vertical-circle-sharp::before {
+  mask: url(../img/sprite.svg#ellipsis-vertical-circle-sharp) no-repeat;
+}
+.icon-ellipsis-vertical-outline::before {
+  mask: url(../img/sprite.svg#ellipsis-vertical-outline) no-repeat;
+}
+.icon-ellipsis-vertical-sharp::before {
+  mask: url(../img/sprite.svg#ellipsis-vertical-sharp) no-repeat;
+}
+.icon-enter::before {
+  mask: url(../img/sprite.svg#enter) no-repeat;
+}
+.icon-enter-outline::before {
+  mask: url(../img/sprite.svg#enter-outline) no-repeat;
+}
+.icon-enter-sharp::before {
+  mask: url(../img/sprite.svg#enter-sharp) no-repeat;
+}
+.icon-exit::before {
+  mask: url(../img/sprite.svg#exit) no-repeat;
+}
+.icon-exit-outline::before {
+  mask: url(../img/sprite.svg#exit-outline) no-repeat;
+}
+.icon-exit-sharp::before {
+  mask: url(../img/sprite.svg#exit-sharp) no-repeat;
+}
+.icon-expand::before {
+  mask: url(../img/sprite.svg#expand) no-repeat;
+}
+.icon-expand-outline::before {
+  mask: url(../img/sprite.svg#expand-outline) no-repeat;
+}
+.icon-expand-sharp::before {
+  mask: url(../img/sprite.svg#expand-sharp) no-repeat;
+}
+.icon-eye::before {
+  mask: url(../img/sprite.svg#eye) no-repeat;
+}
+.icon-eye-off::before {
+  mask: url(../img/sprite.svg#eye-off) no-repeat;
+}
+.icon-eye-off-outline::before {
+  mask: url(../img/sprite.svg#eye-off-outline) no-repeat;
+}
+.icon-eye-off-sharp::before {
+  mask: url(../img/sprite.svg#eye-off-sharp) no-repeat;
+}
+.icon-eye-outline::before {
+  mask: url(../img/sprite.svg#eye-outline) no-repeat;
+}
+.icon-eye-sharp::before {
+  mask: url(../img/sprite.svg#eye-sharp) no-repeat;
+}
+.icon-eyedrop::before {
+  mask: url(../img/sprite.svg#eyedrop) no-repeat;
+}
+.icon-eyedrop-outline::before {
+  mask: url(../img/sprite.svg#eyedrop-outline) no-repeat;
+}
+.icon-eyedrop-sharp::before {
+  mask: url(../img/sprite.svg#eyedrop-sharp) no-repeat;
+}
+.icon-fast-food::before {
+  mask: url(../img/sprite.svg#fast-food) no-repeat;
+}
+.icon-fast-food-outline::before {
+  mask: url(../img/sprite.svg#fast-food-outline) no-repeat;
+}
+.icon-fast-food-sharp::before {
+  mask: url(../img/sprite.svg#fast-food-sharp) no-repeat;
+}
+.icon-female::before {
+  mask: url(../img/sprite.svg#female) no-repeat;
+}
+.icon-female-outline::before {
+  mask: url(../img/sprite.svg#female-outline) no-repeat;
+}
+.icon-female-sharp::before {
+  mask: url(../img/sprite.svg#female-sharp) no-repeat;
+}
+.icon-file-tray::before {
+  mask: url(../img/sprite.svg#file-tray) no-repeat;
+}
+.icon-file-tray-full::before {
+  mask: url(../img/sprite.svg#file-tray-full) no-repeat;
+}
+.icon-file-tray-full-outline::before {
+  mask: url(../img/sprite.svg#file-tray-full-outline) no-repeat;
+}
+.icon-file-tray-full-sharp::before {
+  mask: url(../img/sprite.svg#file-tray-full-sharp) no-repeat;
+}
+.icon-file-tray-outline::before {
+  mask: url(../img/sprite.svg#file-tray-outline) no-repeat;
+}
+.icon-file-tray-sharp::before {
+  mask: url(../img/sprite.svg#file-tray-sharp) no-repeat;
+}
+.icon-file-tray-stacked::before {
+  mask: url(../img/sprite.svg#file-tray-stacked) no-repeat;
+}
+.icon-file-tray-stacked-outline::before {
+  mask: url(../img/sprite.svg#file-tray-stacked-outline) no-repeat;
+}
+.icon-file-tray-stacked-sharp::before {
+  mask: url(../img/sprite.svg#file-tray-stacked-sharp) no-repeat;
+}
+.icon-film::before {
+  mask: url(../img/sprite.svg#film) no-repeat;
+}
+.icon-film-outline::before {
+  mask: url(../img/sprite.svg#film-outline) no-repeat;
+}
+.icon-film-sharp::before {
+  mask: url(../img/sprite.svg#film-sharp) no-repeat;
+}
+.icon-filter::before {
+  mask: url(../img/sprite.svg#filter) no-repeat;
+}
+.icon-filter-outline::before {
+  mask: url(../img/sprite.svg#filter-outline) no-repeat;
+}
+.icon-filter-sharp::before {
+  mask: url(../img/sprite.svg#filter-sharp) no-repeat;
+}
+.icon-finger-print::before {
+  mask: url(../img/sprite.svg#finger-print) no-repeat;
+}
+.icon-finger-print-outline::before {
+  mask: url(../img/sprite.svg#finger-print-outline) no-repeat;
+}
+.icon-finger-print-sharp::before {
+  mask: url(../img/sprite.svg#finger-print-sharp) no-repeat;
+}
+.icon-fitness::before {
+  mask: url(../img/sprite.svg#fitness) no-repeat;
+}
+.icon-fitness-outline::before {
+  mask: url(../img/sprite.svg#fitness-outline) no-repeat;
+}
+.icon-fitness-sharp::before {
+  mask: url(../img/sprite.svg#fitness-sharp) no-repeat;
+}
+.icon-flag::before {
+  mask: url(../img/sprite.svg#flag) no-repeat;
+}
+.icon-flag-outline::before {
+  mask: url(../img/sprite.svg#flag-outline) no-repeat;
+}
+.icon-flag-sharp::before {
+  mask: url(../img/sprite.svg#flag-sharp) no-repeat;
+}
+.icon-flame::before {
+  mask: url(../img/sprite.svg#flame) no-repeat;
+}
+.icon-flame-outline::before {
+  mask: url(../img/sprite.svg#flame-outline) no-repeat;
+}
+.icon-flame-sharp::before {
+  mask: url(../img/sprite.svg#flame-sharp) no-repeat;
+}
+.icon-flash::before {
+  mask: url(../img/sprite.svg#flash) no-repeat;
+}
+.icon-flash-off::before {
+  mask: url(../img/sprite.svg#flash-off) no-repeat;
+}
+.icon-flash-off-outline::before {
+  mask: url(../img/sprite.svg#flash-off-outline) no-repeat;
+}
+.icon-flash-off-sharp::before {
+  mask: url(../img/sprite.svg#flash-off-sharp) no-repeat;
+}
+.icon-flash-outline::before {
+  mask: url(../img/sprite.svg#flash-outline) no-repeat;
+}
+.icon-flash-sharp::before {
+  mask: url(../img/sprite.svg#flash-sharp) no-repeat;
+}
+.icon-flashlight::before {
+  mask: url(../img/sprite.svg#flashlight) no-repeat;
+}
+.icon-flashlight-outline::before {
+  mask: url(../img/sprite.svg#flashlight-outline) no-repeat;
+}
+.icon-flashlight-sharp::before {
+  mask: url(../img/sprite.svg#flashlight-sharp) no-repeat;
+}
+.icon-flask::before {
+  mask: url(../img/sprite.svg#flask) no-repeat;
+}
+.icon-flask-outline::before {
+  mask: url(../img/sprite.svg#flask-outline) no-repeat;
+}
+.icon-flask-sharp::before {
+  mask: url(../img/sprite.svg#flask-sharp) no-repeat;
+}
+.icon-flower::before {
+  mask: url(../img/sprite.svg#flower) no-repeat;
+}
+.icon-flower-outline::before {
+  mask: url(../img/sprite.svg#flower-outline) no-repeat;
+}
+.icon-flower-sharp::before {
+  mask: url(../img/sprite.svg#flower-sharp) no-repeat;
+}
+.icon-folder::before {
+  mask: url(../img/sprite.svg#folder) no-repeat;
+}
 .icon-folder-open::before {
   mask: url(../img/sprite.svg#folder-open) no-repeat;
+}
+.icon-folder-open-outline::before {
+  mask: url(../img/sprite.svg#folder-open-outline) no-repeat;
+}
+.icon-folder-open-sharp::before {
+  mask: url(../img/sprite.svg#folder-open-sharp) no-repeat;
+}
+.icon-folder-outline::before {
+  mask: url(../img/sprite.svg#folder-outline) no-repeat;
+}
+.icon-folder-sharp::before {
+  mask: url(../img/sprite.svg#folder-sharp) no-repeat;
+}
+.icon-football::before {
+  mask: url(../img/sprite.svg#football) no-repeat;
+}
+.icon-football-outline::before {
+  mask: url(../img/sprite.svg#football-outline) no-repeat;
+}
+.icon-football-sharp::before {
+  mask: url(../img/sprite.svg#football-sharp) no-repeat;
+}
+.icon-funnel::before {
+  mask: url(../img/sprite.svg#funnel) no-repeat;
+}
+.icon-funnel-outline::before {
+  mask: url(../img/sprite.svg#funnel-outline) no-repeat;
+}
+.icon-funnel-sharp::before {
+  mask: url(../img/sprite.svg#funnel-sharp) no-repeat;
+}
+.icon-game-controller::before {
+  mask: url(../img/sprite.svg#game-controller) no-repeat;
+}
+.icon-game-controller-outline::before {
+  mask: url(../img/sprite.svg#game-controller-outline) no-repeat;
+}
+.icon-game-controller-sharp::before {
+  mask: url(../img/sprite.svg#game-controller-sharp) no-repeat;
+}
+.icon-gift::before {
+  mask: url(../img/sprite.svg#gift) no-repeat;
+}
+.icon-gift-outline::before {
+  mask: url(../img/sprite.svg#gift-outline) no-repeat;
+}
+.icon-gift-sharp::before {
+  mask: url(../img/sprite.svg#gift-sharp) no-repeat;
+}
+.icon-git-branch::before {
+  mask: url(../img/sprite.svg#git-branch) no-repeat;
+}
+.icon-git-branch-outline::before {
+  mask: url(../img/sprite.svg#git-branch-outline) no-repeat;
+}
+.icon-git-branch-sharp::before {
+  mask: url(../img/sprite.svg#git-branch-sharp) no-repeat;
+}
+.icon-git-commit::before {
+  mask: url(../img/sprite.svg#git-commit) no-repeat;
+}
+.icon-git-commit-outline::before {
+  mask: url(../img/sprite.svg#git-commit-outline) no-repeat;
+}
+.icon-git-commit-sharp::before {
+  mask: url(../img/sprite.svg#git-commit-sharp) no-repeat;
+}
+.icon-git-compare::before {
+  mask: url(../img/sprite.svg#git-compare) no-repeat;
+}
+.icon-git-compare-outline::before {
+  mask: url(../img/sprite.svg#git-compare-outline) no-repeat;
+}
+.icon-git-compare-sharp::before {
+  mask: url(../img/sprite.svg#git-compare-sharp) no-repeat;
+}
+.icon-git-merge::before {
+  mask: url(../img/sprite.svg#git-merge) no-repeat;
+}
+.icon-git-merge-outline::before {
+  mask: url(../img/sprite.svg#git-merge-outline) no-repeat;
+}
+.icon-git-merge-sharp::before {
+  mask: url(../img/sprite.svg#git-merge-sharp) no-repeat;
+}
+.icon-git-network::before {
+  mask: url(../img/sprite.svg#git-network) no-repeat;
+}
+.icon-git-network-outline::before {
+  mask: url(../img/sprite.svg#git-network-outline) no-repeat;
+}
+.icon-git-network-sharp::before {
+  mask: url(../img/sprite.svg#git-network-sharp) no-repeat;
+}
+.icon-git-pull-request::before {
+  mask: url(../img/sprite.svg#git-pull-request) no-repeat;
+}
+.icon-git-pull-request-outline::before {
+  mask: url(../img/sprite.svg#git-pull-request-outline) no-repeat;
+}
+.icon-git-pull-request-sharp::before {
+  mask: url(../img/sprite.svg#git-pull-request-sharp) no-repeat;
+}
+.icon-glasses::before {
+  mask: url(../img/sprite.svg#glasses) no-repeat;
+}
+.icon-glasses-outline::before {
+  mask: url(../img/sprite.svg#glasses-outline) no-repeat;
+}
+.icon-glasses-sharp::before {
+  mask: url(../img/sprite.svg#glasses-sharp) no-repeat;
+}
+.icon-globe::before {
+  mask: url(../img/sprite.svg#globe) no-repeat;
+}
+.icon-globe-outline::before {
+  mask: url(../img/sprite.svg#globe-outline) no-repeat;
+}
+.icon-globe-sharp::before {
+  mask: url(../img/sprite.svg#globe-sharp) no-repeat;
+}
+.icon-golf::before {
+  mask: url(../img/sprite.svg#golf) no-repeat;
+}
+.icon-golf-outline::before {
+  mask: url(../img/sprite.svg#golf-outline) no-repeat;
+}
+.icon-golf-sharp::before {
+  mask: url(../img/sprite.svg#golf-sharp) no-repeat;
+}
+.icon-grid::before {
+  mask: url(../img/sprite.svg#grid) no-repeat;
+}
+.icon-grid-outline::before {
+  mask: url(../img/sprite.svg#grid-outline) no-repeat;
+}
+.icon-grid-sharp::before {
+  mask: url(../img/sprite.svg#grid-sharp) no-repeat;
+}
+.icon-h-mob-devices::before {
+  mask: url(../img/sprite.svg#h-mob-devices) no-repeat;
+}
+.icon-h-notebook::before {
+  mask: url(../img/sprite.svg#h-notebook) no-repeat;
+}
+.icon-h-printer::before {
+  mask: url(../img/sprite.svg#h-printer) no-repeat;
+}
+.icon-hammer::before {
+  mask: url(../img/sprite.svg#hammer) no-repeat;
+}
+.icon-hammer-outline::before {
+  mask: url(../img/sprite.svg#hammer-outline) no-repeat;
+}
+.icon-hammer-sharp::before {
+  mask: url(../img/sprite.svg#hammer-sharp) no-repeat;
+}
+.icon-hand-left::before {
+  mask: url(../img/sprite.svg#hand-left) no-repeat;
+}
+.icon-hand-left-outline::before {
+  mask: url(../img/sprite.svg#hand-left-outline) no-repeat;
+}
+.icon-hand-left-sharp::before {
+  mask: url(../img/sprite.svg#hand-left-sharp) no-repeat;
+}
+.icon-hand-right::before {
+  mask: url(../img/sprite.svg#hand-right) no-repeat;
+}
+.icon-hand-right-outline::before {
+  mask: url(../img/sprite.svg#hand-right-outline) no-repeat;
+}
+.icon-hand-right-sharp::before {
+  mask: url(../img/sprite.svg#hand-right-sharp) no-repeat;
+}
+.icon-happy::before {
+  mask: url(../img/sprite.svg#happy) no-repeat;
+}
+.icon-happy-outline::before {
+  mask: url(../img/sprite.svg#happy-outline) no-repeat;
+}
+.icon-happy-sharp::before {
+  mask: url(../img/sprite.svg#happy-sharp) no-repeat;
+}
+.icon-hardware-chip::before {
+  mask: url(../img/sprite.svg#hardware-chip) no-repeat;
+}
+.icon-hardware-chip-outline::before {
+  mask: url(../img/sprite.svg#hardware-chip-outline) no-repeat;
+}
+.icon-hardware-chip-sharp::before {
+  mask: url(../img/sprite.svg#hardware-chip-sharp) no-repeat;
+}
+.icon-headset::before {
+  mask: url(../img/sprite.svg#headset) no-repeat;
+}
+.icon-headset-outline::before {
+  mask: url(../img/sprite.svg#headset-outline) no-repeat;
+}
+.icon-headset-sharp::before {
+  mask: url(../img/sprite.svg#headset-sharp) no-repeat;
+}
+.icon-heart::before {
+  mask: url(../img/sprite.svg#heart) no-repeat;
+}
+.icon-heart-circle::before {
+  mask: url(../img/sprite.svg#heart-circle) no-repeat;
+}
+.icon-heart-circle-outline::before {
+  mask: url(../img/sprite.svg#heart-circle-outline) no-repeat;
+}
+.icon-heart-circle-sharp::before {
+  mask: url(../img/sprite.svg#heart-circle-sharp) no-repeat;
+}
+.icon-heart-dislike::before {
+  mask: url(../img/sprite.svg#heart-dislike) no-repeat;
+}
+.icon-heart-dislike-circle::before {
+  mask: url(../img/sprite.svg#heart-dislike-circle) no-repeat;
+}
+.icon-heart-dislike-circle-outline::before {
+  mask: url(../img/sprite.svg#heart-dislike-circle-outline) no-repeat;
+}
+.icon-heart-dislike-circle-sharp::before {
+  mask: url(../img/sprite.svg#heart-dislike-circle-sharp) no-repeat;
+}
+.icon-heart-dislike-outline::before {
+  mask: url(../img/sprite.svg#heart-dislike-outline) no-repeat;
+}
+.icon-heart-dislike-sharp::before {
+  mask: url(../img/sprite.svg#heart-dislike-sharp) no-repeat;
+}
+.icon-heart-half::before {
+  mask: url(../img/sprite.svg#heart-half) no-repeat;
+}
+.icon-heart-half-outline::before {
+  mask: url(../img/sprite.svg#heart-half-outline) no-repeat;
+}
+.icon-heart-half-sharp::before {
+  mask: url(../img/sprite.svg#heart-half-sharp) no-repeat;
+}
+.icon-heart-outline::before {
+  mask: url(../img/sprite.svg#heart-outline) no-repeat;
+}
+.icon-heart-sharp::before {
+  mask: url(../img/sprite.svg#heart-sharp) no-repeat;
+}
+.icon-help::before {
+  mask: url(../img/sprite.svg#help) no-repeat;
+}
+.icon-help-buoy::before {
+  mask: url(../img/sprite.svg#help-buoy) no-repeat;
+}
+.icon-help-buoy-outline::before {
+  mask: url(../img/sprite.svg#help-buoy-outline) no-repeat;
+}
+.icon-help-buoy-sharp::before {
+  mask: url(../img/sprite.svg#help-buoy-sharp) no-repeat;
+}
+.icon-help-circle::before {
+  mask: url(../img/sprite.svg#help-circle) no-repeat;
+}
+.icon-help-circle-outline::before {
+  mask: url(../img/sprite.svg#help-circle-outline) no-repeat;
+}
+.icon-help-circle-sharp::before {
+  mask: url(../img/sprite.svg#help-circle-sharp) no-repeat;
+}
+.icon-help-outline::before {
+  mask: url(../img/sprite.svg#help-outline) no-repeat;
+}
+.icon-help-sharp::before {
+  mask: url(../img/sprite.svg#help-sharp) no-repeat;
+}
+.icon-home::before {
+  mask: url(../img/sprite.svg#home) no-repeat;
+}
+.icon-home-outline::before {
+  mask: url(../img/sprite.svg#home-outline) no-repeat;
+}
+.icon-home-sharp::before {
+  mask: url(../img/sprite.svg#home-sharp) no-repeat;
+}
+.icon-hourglass::before {
+  mask: url(../img/sprite.svg#hourglass) no-repeat;
+}
+.icon-hourglass-outline::before {
+  mask: url(../img/sprite.svg#hourglass-outline) no-repeat;
+}
+.icon-hourglass-sharp::before {
+  mask: url(../img/sprite.svg#hourglass-sharp) no-repeat;
+}
+.icon-ice-cream::before {
+  mask: url(../img/sprite.svg#ice-cream) no-repeat;
+}
+.icon-ice-cream-outline::before {
+  mask: url(../img/sprite.svg#ice-cream-outline) no-repeat;
+}
+.icon-ice-cream-sharp::before {
+  mask: url(../img/sprite.svg#ice-cream-sharp) no-repeat;
+}
+.icon-image::before {
+  mask: url(../img/sprite.svg#image) no-repeat;
+}
+.icon-image-outline::before {
+  mask: url(../img/sprite.svg#image-outline) no-repeat;
+}
+.icon-image-sharp::before {
+  mask: url(../img/sprite.svg#image-sharp) no-repeat;
+}
+.icon-images::before {
+  mask: url(../img/sprite.svg#images) no-repeat;
+}
+.icon-images-outline::before {
+  mask: url(../img/sprite.svg#images-outline) no-repeat;
+}
+.icon-images-sharp::before {
+  mask: url(../img/sprite.svg#images-sharp) no-repeat;
+}
+.icon-infinite::before {
+  mask: url(../img/sprite.svg#infinite) no-repeat;
+}
+.icon-infinite-outline::before {
+  mask: url(../img/sprite.svg#infinite-outline) no-repeat;
+}
+.icon-infinite-sharp::before {
+  mask: url(../img/sprite.svg#infinite-sharp) no-repeat;
+}
+.icon-information::before {
+  mask: url(../img/sprite.svg#information) no-repeat;
+}
+.icon-information-circle::before {
+  mask: url(../img/sprite.svg#information-circle) no-repeat;
+}
+.icon-information-circle-outline::before {
+  mask: url(../img/sprite.svg#information-circle-outline) no-repeat;
+}
+.icon-information-circle-sharp::before {
+  mask: url(../img/sprite.svg#information-circle-sharp) no-repeat;
+}
+.icon-information-outline::before {
+  mask: url(../img/sprite.svg#information-outline) no-repeat;
+}
+.icon-information-sharp::before {
+  mask: url(../img/sprite.svg#information-sharp) no-repeat;
+}
+.icon-journal::before {
+  mask: url(../img/sprite.svg#journal) no-repeat;
+}
+.icon-journal-outline::before {
+  mask: url(../img/sprite.svg#journal-outline) no-repeat;
+}
+.icon-journal-sharp::before {
+  mask: url(../img/sprite.svg#journal-sharp) no-repeat;
+}
+.icon-key::before {
+  mask: url(../img/sprite.svg#key) no-repeat;
+}
+.icon-key-outline::before {
+  mask: url(../img/sprite.svg#key-outline) no-repeat;
+}
+.icon-key-sharp::before {
+  mask: url(../img/sprite.svg#key-sharp) no-repeat;
+}
+.icon-keypad::before {
+  mask: url(../img/sprite.svg#keypad) no-repeat;
+}
+.icon-keypad-outline::before {
+  mask: url(../img/sprite.svg#keypad-outline) no-repeat;
+}
+.icon-keypad-sharp::before {
+  mask: url(../img/sprite.svg#keypad-sharp) no-repeat;
+}
+.icon-language::before {
+  mask: url(../img/sprite.svg#language) no-repeat;
+}
+.icon-language-outline::before {
+  mask: url(../img/sprite.svg#language-outline) no-repeat;
+}
+.icon-language-sharp::before {
+  mask: url(../img/sprite.svg#language-sharp) no-repeat;
+}
+.icon-laptop::before {
+  mask: url(../img/sprite.svg#laptop) no-repeat;
+}
+.icon-laptop-outline::before {
+  mask: url(../img/sprite.svg#laptop-outline) no-repeat;
+}
+.icon-laptop-sharp::before {
+  mask: url(../img/sprite.svg#laptop-sharp) no-repeat;
+}
+.icon-layers::before {
+  mask: url(../img/sprite.svg#layers) no-repeat;
+}
+.icon-layers-outline::before {
+  mask: url(../img/sprite.svg#layers-outline) no-repeat;
+}
+.icon-layers-sharp::before {
+  mask: url(../img/sprite.svg#layers-sharp) no-repeat;
+}
+.icon-leaf::before {
+  mask: url(../img/sprite.svg#leaf) no-repeat;
+}
+.icon-leaf-outline::before {
+  mask: url(../img/sprite.svg#leaf-outline) no-repeat;
+}
+.icon-leaf-sharp::before {
+  mask: url(../img/sprite.svg#leaf-sharp) no-repeat;
+}
+.icon-library::before {
+  mask: url(../img/sprite.svg#library) no-repeat;
+}
+.icon-library-outline::before {
+  mask: url(../img/sprite.svg#library-outline) no-repeat;
+}
+.icon-library-sharp::before {
+  mask: url(../img/sprite.svg#library-sharp) no-repeat;
+}
+.icon-link::before {
+  mask: url(../img/sprite.svg#link) no-repeat;
+}
+.icon-link-outline::before {
+  mask: url(../img/sprite.svg#link-outline) no-repeat;
+}
+.icon-link-sharp::before {
+  mask: url(../img/sprite.svg#link-sharp) no-repeat;
+}
+.icon-list::before {
+  mask: url(../img/sprite.svg#list) no-repeat;
+}
+.icon-list-circle::before {
+  mask: url(../img/sprite.svg#list-circle) no-repeat;
+}
+.icon-list-circle-outline::before {
+  mask: url(../img/sprite.svg#list-circle-outline) no-repeat;
+}
+.icon-list-circle-sharp::before {
+  mask: url(../img/sprite.svg#list-circle-sharp) no-repeat;
+}
+.icon-list-outline::before {
+  mask: url(../img/sprite.svg#list-outline) no-repeat;
+}
+.icon-list-sharp::before {
+  mask: url(../img/sprite.svg#list-sharp) no-repeat;
+}
+.icon-locate::before {
+  mask: url(../img/sprite.svg#locate) no-repeat;
+}
+.icon-locate-outline::before {
+  mask: url(../img/sprite.svg#locate-outline) no-repeat;
+}
+.icon-locate-sharp::before {
+  mask: url(../img/sprite.svg#locate-sharp) no-repeat;
+}
+.icon-location::before {
+  mask: url(../img/sprite.svg#location) no-repeat;
+}
+.icon-location-outline::before {
+  mask: url(../img/sprite.svg#location-outline) no-repeat;
+}
+.icon-location-sharp::before {
+  mask: url(../img/sprite.svg#location-sharp) no-repeat;
+}
+.icon-lock-closed::before {
+  mask: url(../img/sprite.svg#lock-closed) no-repeat;
+}
+.icon-lock-closed-outline::before {
+  mask: url(../img/sprite.svg#lock-closed-outline) no-repeat;
+}
+.icon-lock-closed-sharp::before {
+  mask: url(../img/sprite.svg#lock-closed-sharp) no-repeat;
+}
+.icon-lock-open::before {
+  mask: url(../img/sprite.svg#lock-open) no-repeat;
+}
+.icon-lock-open-outline::before {
+  mask: url(../img/sprite.svg#lock-open-outline) no-repeat;
+}
+.icon-lock-open-sharp::before {
+  mask: url(../img/sprite.svg#lock-open-sharp) no-repeat;
+}
+.icon-log-in::before {
+  mask: url(../img/sprite.svg#log-in) no-repeat;
+}
+.icon-log-in-outline::before {
+  mask: url(../img/sprite.svg#log-in-outline) no-repeat;
+}
+.icon-log-in-sharp::before {
+  mask: url(../img/sprite.svg#log-in-sharp) no-repeat;
+}
+.icon-log-out::before {
+  mask: url(../img/sprite.svg#log-out) no-repeat;
+}
+.icon-log-out-outline::before {
+  mask: url(../img/sprite.svg#log-out-outline) no-repeat;
+}
+.icon-log-out-sharp::before {
+  mask: url(../img/sprite.svg#log-out-sharp) no-repeat;
+}
+.icon-logo-amazon::before {
+  mask: url(../img/sprite.svg#logo-amazon) no-repeat;
+}
+.icon-logo-amplify::before {
+  mask: url(../img/sprite.svg#logo-amplify) no-repeat;
+}
+.icon-logo-android::before {
+  mask: url(../img/sprite.svg#logo-android) no-repeat;
+}
+.icon-logo-angular::before {
+  mask: url(../img/sprite.svg#logo-angular) no-repeat;
+}
+.icon-logo-apple::before {
+  mask: url(../img/sprite.svg#logo-apple) no-repeat;
+}
+.icon-logo-apple-appstore::before {
+  mask: url(../img/sprite.svg#logo-apple-appstore) no-repeat;
+}
+.icon-logo-bitbucket::before {
+  mask: url(../img/sprite.svg#logo-bitbucket) no-repeat;
+}
+.icon-logo-bitcoin::before {
+  mask: url(../img/sprite.svg#logo-bitcoin) no-repeat;
+}
+.icon-logo-buffer::before {
+  mask: url(../img/sprite.svg#logo-buffer) no-repeat;
+}
+.icon-logo-capacitor::before {
+  mask: url(../img/sprite.svg#logo-capacitor) no-repeat;
+}
+.icon-logo-chrome::before {
+  mask: url(../img/sprite.svg#logo-chrome) no-repeat;
+}
+.icon-logo-closed-captioning::before {
+  mask: url(../img/sprite.svg#logo-closed-captioning) no-repeat;
+}
+.icon-logo-codepen::before {
+  mask: url(../img/sprite.svg#logo-codepen) no-repeat;
+}
+.icon-logo-css3::before {
+  mask: url(../img/sprite.svg#logo-css3) no-repeat;
+}
+.icon-logo-designernews::before {
+  mask: url(../img/sprite.svg#logo-designernews) no-repeat;
+}
+.icon-logo-dribbble::before {
+  mask: url(../img/sprite.svg#logo-dribbble) no-repeat;
+}
+.icon-logo-dropbox::before {
+  mask: url(../img/sprite.svg#logo-dropbox) no-repeat;
+}
+.icon-logo-edge::before {
+  mask: url(../img/sprite.svg#logo-edge) no-repeat;
+}
+.icon-logo-electron::before {
+  mask: url(../img/sprite.svg#logo-electron) no-repeat;
+}
+.icon-logo-euro::before {
+  mask: url(../img/sprite.svg#logo-euro) no-repeat;
+}
+.icon-logo-facebook::before {
+  mask: url(../img/sprite.svg#logo-facebook) no-repeat;
+}
+.icon-logo-firebase::before {
+  mask: url(../img/sprite.svg#logo-firebase) no-repeat;
+}
+.icon-logo-firefox::before {
+  mask: url(../img/sprite.svg#logo-firefox) no-repeat;
+}
+.icon-logo-flickr::before {
+  mask: url(../img/sprite.svg#logo-flickr) no-repeat;
+}
+.icon-logo-foursquare::before {
+  mask: url(../img/sprite.svg#logo-foursquare) no-repeat;
+}
+.icon-logo-github::before {
+  mask: url(../img/sprite.svg#logo-github) no-repeat;
+}
+.icon-logo-google::before {
+  mask: url(../img/sprite.svg#logo-google) no-repeat;
+}
+.icon-logo-google-playstore::before {
+  mask: url(../img/sprite.svg#logo-google-playstore) no-repeat;
+}
+.icon-logo-hackernews::before {
+  mask: url(../img/sprite.svg#logo-hackernews) no-repeat;
+}
+.icon-logo-html5::before {
+  mask: url(../img/sprite.svg#logo-html5) no-repeat;
+}
+.icon-logo-instagram::before {
+  mask: url(../img/sprite.svg#logo-instagram) no-repeat;
+}
+.icon-logo-ionic::before {
+  mask: url(../img/sprite.svg#logo-ionic) no-repeat;
+}
+.icon-logo-ionitron::before {
+  mask: url(../img/sprite.svg#logo-ionitron) no-repeat;
+}
+.icon-logo-javascript::before {
+  mask: url(../img/sprite.svg#logo-javascript) no-repeat;
+}
+.icon-logo-laravel::before {
+  mask: url(../img/sprite.svg#logo-laravel) no-repeat;
+}
+.icon-logo-linkedin::before {
+  mask: url(../img/sprite.svg#logo-linkedin) no-repeat;
+}
+.icon-logo-markdown::before {
+  mask: url(../img/sprite.svg#logo-markdown) no-repeat;
+}
+.icon-logo-no-smoking::before {
+  mask: url(../img/sprite.svg#logo-no-smoking) no-repeat;
+}
+.icon-logo-nodejs::before {
+  mask: url(../img/sprite.svg#logo-nodejs) no-repeat;
+}
+.icon-logo-npm::before {
+  mask: url(../img/sprite.svg#logo-npm) no-repeat;
+}
+.icon-logo-octocat::before {
+  mask: url(../img/sprite.svg#logo-octocat) no-repeat;
+}
+.icon-logo-pinterest::before {
+  mask: url(../img/sprite.svg#logo-pinterest) no-repeat;
+}
+.icon-logo-playstation::before {
+  mask: url(../img/sprite.svg#logo-playstation) no-repeat;
+}
+.icon-logo-pwa::before {
+  mask: url(../img/sprite.svg#logo-pwa) no-repeat;
+}
+.icon-logo-python::before {
+  mask: url(../img/sprite.svg#logo-python) no-repeat;
+}
+.icon-logo-react::before {
+  mask: url(../img/sprite.svg#logo-react) no-repeat;
+}
+.icon-logo-reddit::before {
+  mask: url(../img/sprite.svg#logo-reddit) no-repeat;
+}
+.icon-logo-rss::before {
+  mask: url(../img/sprite.svg#logo-rss) no-repeat;
+}
+.icon-logo-sass::before {
+  mask: url(../img/sprite.svg#logo-sass) no-repeat;
+}
+.icon-logo-skype::before {
+  mask: url(../img/sprite.svg#logo-skype) no-repeat;
+}
+.icon-logo-slack::before {
+  mask: url(../img/sprite.svg#logo-slack) no-repeat;
+}
+.icon-logo-snapchat::before {
+  mask: url(../img/sprite.svg#logo-snapchat) no-repeat;
+}
+.icon-logo-stackoverflow::before {
+  mask: url(../img/sprite.svg#logo-stackoverflow) no-repeat;
+}
+.icon-logo-steam::before {
+  mask: url(../img/sprite.svg#logo-steam) no-repeat;
+}
+.icon-logo-stencil::before {
+  mask: url(../img/sprite.svg#logo-stencil) no-repeat;
+}
+.icon-logo-tumblr::before {
+  mask: url(../img/sprite.svg#logo-tumblr) no-repeat;
+}
+.icon-logo-tux::before {
+  mask: url(../img/sprite.svg#logo-tux) no-repeat;
+}
+.icon-logo-twitch::before {
+  mask: url(../img/sprite.svg#logo-twitch) no-repeat;
+}
+.icon-logo-twitter::before {
+  mask: url(../img/sprite.svg#logo-twitter) no-repeat;
+}
+.icon-logo-usd::before {
+  mask: url(../img/sprite.svg#logo-usd) no-repeat;
+}
+.icon-logo-vimeo::before {
+  mask: url(../img/sprite.svg#logo-vimeo) no-repeat;
+}
+.icon-logo-vk::before {
+  mask: url(../img/sprite.svg#logo-vk) no-repeat;
+}
+.icon-logo-vue::before {
+  mask: url(../img/sprite.svg#logo-vue) no-repeat;
+}
+.icon-logo-web-component::before {
+  mask: url(../img/sprite.svg#logo-web-component) no-repeat;
+}
+.icon-logo-whatsapp::before {
+  mask: url(../img/sprite.svg#logo-whatsapp) no-repeat;
+}
+.icon-logo-windows::before {
+  mask: url(../img/sprite.svg#logo-windows) no-repeat;
+}
+.icon-logo-wordpress::before {
+  mask: url(../img/sprite.svg#logo-wordpress) no-repeat;
+}
+.icon-logo-xbox::before {
+  mask: url(../img/sprite.svg#logo-xbox) no-repeat;
+}
+.icon-logo-xing::before {
+  mask: url(../img/sprite.svg#logo-xing) no-repeat;
+}
+.icon-logo-yahoo::before {
+  mask: url(../img/sprite.svg#logo-yahoo) no-repeat;
+}
+.icon-logo-yen::before {
+  mask: url(../img/sprite.svg#logo-yen) no-repeat;
+}
+.icon-logo-youtube::before {
+  mask: url(../img/sprite.svg#logo-youtube) no-repeat;
+}
+.icon-magnet::before {
+  mask: url(../img/sprite.svg#magnet) no-repeat;
+}
+.icon-magnet-outline::before {
+  mask: url(../img/sprite.svg#magnet-outline) no-repeat;
+}
+.icon-magnet-sharp::before {
+  mask: url(../img/sprite.svg#magnet-sharp) no-repeat;
+}
+.icon-mail::before {
+  mask: url(../img/sprite.svg#mail) no-repeat;
+}
+.icon-mail-open::before {
+  mask: url(../img/sprite.svg#mail-open) no-repeat;
+}
+.icon-mail-open-outline::before {
+  mask: url(../img/sprite.svg#mail-open-outline) no-repeat;
+}
+.icon-mail-open-sharp::before {
+  mask: url(../img/sprite.svg#mail-open-sharp) no-repeat;
+}
+.icon-mail-outline::before {
+  mask: url(../img/sprite.svg#mail-outline) no-repeat;
+}
+.icon-mail-sharp::before {
+  mask: url(../img/sprite.svg#mail-sharp) no-repeat;
+}
+.icon-mail-unread::before {
+  mask: url(../img/sprite.svg#mail-unread) no-repeat;
+}
+.icon-mail-unread-outline::before {
+  mask: url(../img/sprite.svg#mail-unread-outline) no-repeat;
+}
+.icon-mail-unread-sharp::before {
+  mask: url(../img/sprite.svg#mail-unread-sharp) no-repeat;
+}
+.icon-male::before {
+  mask: url(../img/sprite.svg#male) no-repeat;
+}
+.icon-male-female::before {
+  mask: url(../img/sprite.svg#male-female) no-repeat;
+}
+.icon-male-female-outline::before {
+  mask: url(../img/sprite.svg#male-female-outline) no-repeat;
+}
+.icon-male-female-sharp::before {
+  mask: url(../img/sprite.svg#male-female-sharp) no-repeat;
+}
+.icon-male-outline::before {
+  mask: url(../img/sprite.svg#male-outline) no-repeat;
+}
+.icon-male-sharp::before {
+  mask: url(../img/sprite.svg#male-sharp) no-repeat;
+}
+.icon-man::before {
+  mask: url(../img/sprite.svg#man) no-repeat;
+}
+.icon-man-outline::before {
+  mask: url(../img/sprite.svg#man-outline) no-repeat;
+}
+.icon-man-sharp::before {
+  mask: url(../img/sprite.svg#man-sharp) no-repeat;
+}
+.icon-map::before {
+  mask: url(../img/sprite.svg#map) no-repeat;
+}
+.icon-map-outline::before {
+  mask: url(../img/sprite.svg#map-outline) no-repeat;
+}
+.icon-map-sharp::before {
+  mask: url(../img/sprite.svg#map-sharp) no-repeat;
+}
+.icon-medal::before {
+  mask: url(../img/sprite.svg#medal) no-repeat;
+}
+.icon-medal-outline::before {
+  mask: url(../img/sprite.svg#medal-outline) no-repeat;
+}
+.icon-medal-sharp::before {
+  mask: url(../img/sprite.svg#medal-sharp) no-repeat;
+}
+.icon-medical::before {
+  mask: url(../img/sprite.svg#medical) no-repeat;
+}
+.icon-medical-outline::before {
+  mask: url(../img/sprite.svg#medical-outline) no-repeat;
+}
+.icon-medical-sharp::before {
+  mask: url(../img/sprite.svg#medical-sharp) no-repeat;
+}
+.icon-medkit::before {
+  mask: url(../img/sprite.svg#medkit) no-repeat;
+}
+.icon-medkit-outline::before {
+  mask: url(../img/sprite.svg#medkit-outline) no-repeat;
+}
+.icon-medkit-sharp::before {
+  mask: url(../img/sprite.svg#medkit-sharp) no-repeat;
+}
+.icon-megaphone::before {
+  mask: url(../img/sprite.svg#megaphone) no-repeat;
+}
+.icon-megaphone-outline::before {
+  mask: url(../img/sprite.svg#megaphone-outline) no-repeat;
+}
+.icon-megaphone-sharp::before {
+  mask: url(../img/sprite.svg#megaphone-sharp) no-repeat;
+}
+.icon-menu::before {
+  mask: url(../img/sprite.svg#menu) no-repeat;
+}
+.icon-menu-outline::before {
+  mask: url(../img/sprite.svg#menu-outline) no-repeat;
+}
+.icon-menu-sharp::before {
+  mask: url(../img/sprite.svg#menu-sharp) no-repeat;
+}
+.icon-mic::before {
+  mask: url(../img/sprite.svg#mic) no-repeat;
+}
+.icon-mic-circle::before {
+  mask: url(../img/sprite.svg#mic-circle) no-repeat;
+}
+.icon-mic-circle-outline::before {
+  mask: url(../img/sprite.svg#mic-circle-outline) no-repeat;
+}
+.icon-mic-circle-sharp::before {
+  mask: url(../img/sprite.svg#mic-circle-sharp) no-repeat;
+}
+.icon-mic-off::before {
+  mask: url(../img/sprite.svg#mic-off) no-repeat;
+}
+.icon-mic-off-circle::before {
+  mask: url(../img/sprite.svg#mic-off-circle) no-repeat;
+}
+.icon-mic-off-circle-outline::before {
+  mask: url(../img/sprite.svg#mic-off-circle-outline) no-repeat;
+}
+.icon-mic-off-circle-sharp::before {
+  mask: url(../img/sprite.svg#mic-off-circle-sharp) no-repeat;
+}
+.icon-mic-off-outline::before {
+  mask: url(../img/sprite.svg#mic-off-outline) no-repeat;
+}
+.icon-mic-off-sharp::before {
+  mask: url(../img/sprite.svg#mic-off-sharp) no-repeat;
+}
+.icon-mic-outline::before {
+  mask: url(../img/sprite.svg#mic-outline) no-repeat;
+}
+.icon-mic-sharp::before {
+  mask: url(../img/sprite.svg#mic-sharp) no-repeat;
+}
+.icon-moon::before {
+  mask: url(../img/sprite.svg#moon) no-repeat;
+}
+.icon-moon-outline::before {
+  mask: url(../img/sprite.svg#moon-outline) no-repeat;
+}
+.icon-moon-sharp::before {
+  mask: url(../img/sprite.svg#moon-sharp) no-repeat;
+}
+.icon-move::before {
+  mask: url(../img/sprite.svg#move) no-repeat;
+}
+.icon-move-outline::before {
+  mask: url(../img/sprite.svg#move-outline) no-repeat;
+}
+.icon-move-sharp::before {
+  mask: url(../img/sprite.svg#move-sharp) no-repeat;
+}
+.icon-musical-note::before {
+  mask: url(../img/sprite.svg#musical-note) no-repeat;
+}
+.icon-musical-note-outline::before {
+  mask: url(../img/sprite.svg#musical-note-outline) no-repeat;
+}
+.icon-musical-note-sharp::before {
+  mask: url(../img/sprite.svg#musical-note-sharp) no-repeat;
+}
+.icon-musical-notes::before {
+  mask: url(../img/sprite.svg#musical-notes) no-repeat;
+}
+.icon-musical-notes-outline::before {
+  mask: url(../img/sprite.svg#musical-notes-outline) no-repeat;
+}
+.icon-musical-notes-sharp::before {
+  mask: url(../img/sprite.svg#musical-notes-sharp) no-repeat;
+}
+.icon-navigate::before {
+  mask: url(../img/sprite.svg#navigate) no-repeat;
+}
+.icon-navigate-circle::before {
+  mask: url(../img/sprite.svg#navigate-circle) no-repeat;
+}
+.icon-navigate-circle-outline::before {
+  mask: url(../img/sprite.svg#navigate-circle-outline) no-repeat;
+}
+.icon-navigate-circle-sharp::before {
+  mask: url(../img/sprite.svg#navigate-circle-sharp) no-repeat;
+}
+.icon-navigate-outline::before {
+  mask: url(../img/sprite.svg#navigate-outline) no-repeat;
+}
+.icon-navigate-sharp::before {
+  mask: url(../img/sprite.svg#navigate-sharp) no-repeat;
+}
+.icon-newspaper::before {
+  mask: url(../img/sprite.svg#newspaper) no-repeat;
+}
+.icon-newspaper-outline::before {
+  mask: url(../img/sprite.svg#newspaper-outline) no-repeat;
+}
+.icon-newspaper-sharp::before {
+  mask: url(../img/sprite.svg#newspaper-sharp) no-repeat;
+}
+.icon-notifications::before {
+  mask: url(../img/sprite.svg#notifications) no-repeat;
+}
+.icon-notifications-circle::before {
+  mask: url(../img/sprite.svg#notifications-circle) no-repeat;
+}
+.icon-notifications-circle-outline::before {
+  mask: url(../img/sprite.svg#notifications-circle-outline) no-repeat;
+}
+.icon-notifications-circle-sharp::before {
+  mask: url(../img/sprite.svg#notifications-circle-sharp) no-repeat;
+}
+.icon-notifications-off::before {
+  mask: url(../img/sprite.svg#notifications-off) no-repeat;
+}
+.icon-notifications-off-circle::before {
+  mask: url(../img/sprite.svg#notifications-off-circle) no-repeat;
+}
+.icon-notifications-off-circle-outline::before {
+  mask: url(../img/sprite.svg#notifications-off-circle-outline) no-repeat;
+}
+.icon-notifications-off-circle-sharp::before {
+  mask: url(../img/sprite.svg#notifications-off-circle-sharp) no-repeat;
+}
+.icon-notifications-off-outline::before {
+  mask: url(../img/sprite.svg#notifications-off-outline) no-repeat;
+}
+.icon-notifications-off-sharp::before {
+  mask: url(../img/sprite.svg#notifications-off-sharp) no-repeat;
+}
+.icon-notifications-outline::before {
+  mask: url(../img/sprite.svg#notifications-outline) no-repeat;
+}
+.icon-notifications-sharp::before {
+  mask: url(../img/sprite.svg#notifications-sharp) no-repeat;
+}
+.icon-nuclear::before {
+  mask: url(../img/sprite.svg#nuclear) no-repeat;
+}
+.icon-nuclear-outline::before {
+  mask: url(../img/sprite.svg#nuclear-outline) no-repeat;
+}
+.icon-nuclear-sharp::before {
+  mask: url(../img/sprite.svg#nuclear-sharp) no-repeat;
+}
+.icon-nutrition::before {
+  mask: url(../img/sprite.svg#nutrition) no-repeat;
+}
+.icon-nutrition-outline::before {
+  mask: url(../img/sprite.svg#nutrition-outline) no-repeat;
+}
+.icon-nutrition-sharp::before {
+  mask: url(../img/sprite.svg#nutrition-sharp) no-repeat;
+}
+.icon-open::before {
+  mask: url(../img/sprite.svg#open) no-repeat;
+}
+.icon-open-outline::before {
+  mask: url(../img/sprite.svg#open-outline) no-repeat;
+}
+.icon-open-sharp::before {
+  mask: url(../img/sprite.svg#open-sharp) no-repeat;
+}
+.icon-options::before {
+  mask: url(../img/sprite.svg#options) no-repeat;
+}
+.icon-options-outline::before {
+  mask: url(../img/sprite.svg#options-outline) no-repeat;
+}
+.icon-options-sharp::before {
+  mask: url(../img/sprite.svg#options-sharp) no-repeat;
+}
+.icon-paper-plane::before {
+  mask: url(../img/sprite.svg#paper-plane) no-repeat;
+}
+.icon-paper-plane-outline::before {
+  mask: url(../img/sprite.svg#paper-plane-outline) no-repeat;
+}
+.icon-paper-plane-sharp::before {
+  mask: url(../img/sprite.svg#paper-plane-sharp) no-repeat;
+}
+.icon-partly-sunny::before {
+  mask: url(../img/sprite.svg#partly-sunny) no-repeat;
+}
+.icon-partly-sunny-outline::before {
+  mask: url(../img/sprite.svg#partly-sunny-outline) no-repeat;
+}
+.icon-partly-sunny-sharp::before {
+  mask: url(../img/sprite.svg#partly-sunny-sharp) no-repeat;
+}
+.icon-pause::before {
+  mask: url(../img/sprite.svg#pause) no-repeat;
+}
+.icon-pause-circle::before {
+  mask: url(../img/sprite.svg#pause-circle) no-repeat;
+}
+.icon-pause-circle-outline::before {
+  mask: url(../img/sprite.svg#pause-circle-outline) no-repeat;
+}
+.icon-pause-circle-sharp::before {
+  mask: url(../img/sprite.svg#pause-circle-sharp) no-repeat;
+}
+.icon-pause-outline::before {
+  mask: url(../img/sprite.svg#pause-outline) no-repeat;
+}
+.icon-pause-sharp::before {
+  mask: url(../img/sprite.svg#pause-sharp) no-repeat;
+}
+.icon-paw::before {
+  mask: url(../img/sprite.svg#paw) no-repeat;
+}
+.icon-paw-outline::before {
+  mask: url(../img/sprite.svg#paw-outline) no-repeat;
+}
+.icon-paw-sharp::before {
+  mask: url(../img/sprite.svg#paw-sharp) no-repeat;
+}
+.icon-pencil::before {
+  mask: url(../img/sprite.svg#pencil) no-repeat;
+}
+.icon-pencil-outline::before {
+  mask: url(../img/sprite.svg#pencil-outline) no-repeat;
+}
+.icon-pencil-sharp::before {
+  mask: url(../img/sprite.svg#pencil-sharp) no-repeat;
+}
+.icon-people::before {
+  mask: url(../img/sprite.svg#people) no-repeat;
+}
+.icon-people-circle::before {
+  mask: url(../img/sprite.svg#people-circle) no-repeat;
+}
+.icon-people-circle-outline::before {
+  mask: url(../img/sprite.svg#people-circle-outline) no-repeat;
+}
+.icon-people-circle-sharp::before {
+  mask: url(../img/sprite.svg#people-circle-sharp) no-repeat;
+}
+.icon-people-outline::before {
+  mask: url(../img/sprite.svg#people-outline) no-repeat;
+}
+.icon-people-sharp::before {
+  mask: url(../img/sprite.svg#people-sharp) no-repeat;
+}
+.icon-person::before {
+  mask: url(../img/sprite.svg#person) no-repeat;
+}
+.icon-person-add::before {
+  mask: url(../img/sprite.svg#person-add) no-repeat;
+}
+.icon-person-add-outline::before {
+  mask: url(../img/sprite.svg#person-add-outline) no-repeat;
+}
+.icon-person-add-sharp::before {
+  mask: url(../img/sprite.svg#person-add-sharp) no-repeat;
+}
+.icon-person-circle::before {
+  mask: url(../img/sprite.svg#person-circle) no-repeat;
+}
+.icon-person-circle-outline::before {
+  mask: url(../img/sprite.svg#person-circle-outline) no-repeat;
+}
+.icon-person-circle-sharp::before {
+  mask: url(../img/sprite.svg#person-circle-sharp) no-repeat;
+}
+.icon-person-outline::before {
+  mask: url(../img/sprite.svg#person-outline) no-repeat;
+}
+.icon-person-remove::before {
+  mask: url(../img/sprite.svg#person-remove) no-repeat;
+}
+.icon-person-remove-outline::before {
+  mask: url(../img/sprite.svg#person-remove-outline) no-repeat;
+}
+.icon-person-remove-sharp::before {
+  mask: url(../img/sprite.svg#person-remove-sharp) no-repeat;
+}
+.icon-person-sharp::before {
+  mask: url(../img/sprite.svg#person-sharp) no-repeat;
+}
+.icon-phone-landscape::before {
+  mask: url(../img/sprite.svg#phone-landscape) no-repeat;
+}
+.icon-phone-landscape-outline::before {
+  mask: url(../img/sprite.svg#phone-landscape-outline) no-repeat;
+}
+.icon-phone-landscape-sharp::before {
+  mask: url(../img/sprite.svg#phone-landscape-sharp) no-repeat;
+}
+.icon-phone-portrait::before {
+  mask: url(../img/sprite.svg#phone-portrait) no-repeat;
+}
+.icon-phone-portrait-outline::before {
+  mask: url(../img/sprite.svg#phone-portrait-outline) no-repeat;
+}
+.icon-phone-portrait-sharp::before {
+  mask: url(../img/sprite.svg#phone-portrait-sharp) no-repeat;
+}
+.icon-pie-chart::before {
+  mask: url(../img/sprite.svg#pie-chart) no-repeat;
+}
+.icon-pie-chart-outline::before {
+  mask: url(../img/sprite.svg#pie-chart-outline) no-repeat;
+}
+.icon-pie-chart-sharp::before {
+  mask: url(../img/sprite.svg#pie-chart-sharp) no-repeat;
+}
+.icon-pin::before {
+  mask: url(../img/sprite.svg#pin) no-repeat;
+}
+.icon-pin-outline::before {
+  mask: url(../img/sprite.svg#pin-outline) no-repeat;
+}
+.icon-pin-sharp::before {
+  mask: url(../img/sprite.svg#pin-sharp) no-repeat;
+}
+.icon-pint::before {
+  mask: url(../img/sprite.svg#pint) no-repeat;
+}
+.icon-pint-outline::before {
+  mask: url(../img/sprite.svg#pint-outline) no-repeat;
+}
+.icon-pint-sharp::before {
+  mask: url(../img/sprite.svg#pint-sharp) no-repeat;
+}
+.icon-pizza::before {
+  mask: url(../img/sprite.svg#pizza) no-repeat;
+}
+.icon-pizza-outline::before {
+  mask: url(../img/sprite.svg#pizza-outline) no-repeat;
+}
+.icon-pizza-sharp::before {
+  mask: url(../img/sprite.svg#pizza-sharp) no-repeat;
+}
+.icon-planet::before {
+  mask: url(../img/sprite.svg#planet) no-repeat;
+}
+.icon-planet-outline::before {
+  mask: url(../img/sprite.svg#planet-outline) no-repeat;
+}
+.icon-planet-sharp::before {
+  mask: url(../img/sprite.svg#planet-sharp) no-repeat;
+}
+.icon-play::before {
+  mask: url(../img/sprite.svg#play) no-repeat;
+}
+.icon-play-back::before {
+  mask: url(../img/sprite.svg#play-back) no-repeat;
+}
+.icon-play-back-circle::before {
+  mask: url(../img/sprite.svg#play-back-circle) no-repeat;
+}
+.icon-play-back-circle-outline::before {
+  mask: url(../img/sprite.svg#play-back-circle-outline) no-repeat;
+}
+.icon-play-back-circle-sharp::before {
+  mask: url(../img/sprite.svg#play-back-circle-sharp) no-repeat;
+}
+.icon-play-back-outline::before {
+  mask: url(../img/sprite.svg#play-back-outline) no-repeat;
+}
+.icon-play-back-sharp::before {
+  mask: url(../img/sprite.svg#play-back-sharp) no-repeat;
+}
+.icon-play-circle::before {
+  mask: url(../img/sprite.svg#play-circle) no-repeat;
+}
+.icon-play-circle-outline::before {
+  mask: url(../img/sprite.svg#play-circle-outline) no-repeat;
+}
+.icon-play-circle-sharp::before {
+  mask: url(../img/sprite.svg#play-circle-sharp) no-repeat;
+}
+.icon-play-forward::before {
+  mask: url(../img/sprite.svg#play-forward) no-repeat;
+}
+.icon-play-forward-circle::before {
+  mask: url(../img/sprite.svg#play-forward-circle) no-repeat;
+}
+.icon-play-forward-circle-outline::before {
+  mask: url(../img/sprite.svg#play-forward-circle-outline) no-repeat;
+}
+.icon-play-forward-circle-sharp::before {
+  mask: url(../img/sprite.svg#play-forward-circle-sharp) no-repeat;
+}
+.icon-play-forward-outline::before {
+  mask: url(../img/sprite.svg#play-forward-outline) no-repeat;
+}
+.icon-play-forward-sharp::before {
+  mask: url(../img/sprite.svg#play-forward-sharp) no-repeat;
+}
+.icon-play-outline::before {
+  mask: url(../img/sprite.svg#play-outline) no-repeat;
+}
+.icon-play-sharp::before {
+  mask: url(../img/sprite.svg#play-sharp) no-repeat;
+}
+.icon-play-skip-back::before {
+  mask: url(../img/sprite.svg#play-skip-back) no-repeat;
+}
+.icon-play-skip-back-circle::before {
+  mask: url(../img/sprite.svg#play-skip-back-circle) no-repeat;
+}
+.icon-play-skip-back-circle-outline::before {
+  mask: url(../img/sprite.svg#play-skip-back-circle-outline) no-repeat;
+}
+.icon-play-skip-back-circle-sharp::before {
+  mask: url(../img/sprite.svg#play-skip-back-circle-sharp) no-repeat;
+}
+.icon-play-skip-back-outline::before {
+  mask: url(../img/sprite.svg#play-skip-back-outline) no-repeat;
+}
+.icon-play-skip-back-sharp::before {
+  mask: url(../img/sprite.svg#play-skip-back-sharp) no-repeat;
+}
+.icon-play-skip-forward::before {
+  mask: url(../img/sprite.svg#play-skip-forward) no-repeat;
+}
+.icon-play-skip-forward-circle::before {
+  mask: url(../img/sprite.svg#play-skip-forward-circle) no-repeat;
+}
+.icon-play-skip-forward-circle-outline::before {
+  mask: url(../img/sprite.svg#play-skip-forward-circle-outline) no-repeat;
+}
+.icon-play-skip-forward-circle-sharp::before {
+  mask: url(../img/sprite.svg#play-skip-forward-circle-sharp) no-repeat;
+}
+.icon-play-skip-forward-outline::before {
+  mask: url(../img/sprite.svg#play-skip-forward-outline) no-repeat;
+}
+.icon-play-skip-forward-sharp::before {
+  mask: url(../img/sprite.svg#play-skip-forward-sharp) no-repeat;
+}
+.icon-podium::before {
+  mask: url(../img/sprite.svg#podium) no-repeat;
+}
+.icon-podium-outline::before {
+  mask: url(../img/sprite.svg#podium-outline) no-repeat;
+}
+.icon-podium-sharp::before {
+  mask: url(../img/sprite.svg#podium-sharp) no-repeat;
+}
+.icon-power::before {
+  mask: url(../img/sprite.svg#power) no-repeat;
+}
+.icon-power-outline::before {
+  mask: url(../img/sprite.svg#power-outline) no-repeat;
+}
+.icon-power-sharp::before {
+  mask: url(../img/sprite.svg#power-sharp) no-repeat;
+}
+.icon-pricetag::before {
+  mask: url(../img/sprite.svg#pricetag) no-repeat;
+}
+.icon-pricetag-outline::before {
+  mask: url(../img/sprite.svg#pricetag-outline) no-repeat;
+}
+.icon-pricetag-sharp::before {
+  mask: url(../img/sprite.svg#pricetag-sharp) no-repeat;
+}
+.icon-pricetags::before {
+  mask: url(../img/sprite.svg#pricetags) no-repeat;
+}
+.icon-pricetags-outline::before {
+  mask: url(../img/sprite.svg#pricetags-outline) no-repeat;
+}
+.icon-pricetags-sharp::before {
+  mask: url(../img/sprite.svg#pricetags-sharp) no-repeat;
+}
+.icon-print::before {
+  mask: url(../img/sprite.svg#print) no-repeat;
+}
+.icon-print-outline::before {
+  mask: url(../img/sprite.svg#print-outline) no-repeat;
+}
+.icon-print-sharp::before {
+  mask: url(../img/sprite.svg#print-sharp) no-repeat;
+}
+.icon-pulse::before {
+  mask: url(../img/sprite.svg#pulse) no-repeat;
+}
+.icon-pulse-outline::before {
+  mask: url(../img/sprite.svg#pulse-outline) no-repeat;
+}
+.icon-pulse-sharp::before {
+  mask: url(../img/sprite.svg#pulse-sharp) no-repeat;
+}
+.icon-push::before {
+  mask: url(../img/sprite.svg#push) no-repeat;
+}
+.icon-push-outline::before {
+  mask: url(../img/sprite.svg#push-outline) no-repeat;
+}
+.icon-push-sharp::before {
+  mask: url(../img/sprite.svg#push-sharp) no-repeat;
+}
+.icon-qr-code::before {
+  mask: url(../img/sprite.svg#qr-code) no-repeat;
+}
+.icon-qr-code-outline::before {
+  mask: url(../img/sprite.svg#qr-code-outline) no-repeat;
+}
+.icon-qr-code-sharp::before {
+  mask: url(../img/sprite.svg#qr-code-sharp) no-repeat;
+}
+.icon-radio::before {
+  mask: url(../img/sprite.svg#radio) no-repeat;
+}
+.icon-radio-button-off::before {
+  mask: url(../img/sprite.svg#radio-button-off) no-repeat;
+}
+.icon-radio-button-off-outline::before {
+  mask: url(../img/sprite.svg#radio-button-off-outline) no-repeat;
+}
+.icon-radio-button-off-sharp::before {
+  mask: url(../img/sprite.svg#radio-button-off-sharp) no-repeat;
+}
+.icon-radio-button-on::before {
+  mask: url(../img/sprite.svg#radio-button-on) no-repeat;
+}
+.icon-radio-button-on-outline::before {
+  mask: url(../img/sprite.svg#radio-button-on-outline) no-repeat;
+}
+.icon-radio-button-on-sharp::before {
+  mask: url(../img/sprite.svg#radio-button-on-sharp) no-repeat;
+}
+.icon-radio-outline::before {
+  mask: url(../img/sprite.svg#radio-outline) no-repeat;
+}
+.icon-radio-sharp::before {
+  mask: url(../img/sprite.svg#radio-sharp) no-repeat;
+}
+.icon-rainy::before {
+  mask: url(../img/sprite.svg#rainy) no-repeat;
+}
+.icon-rainy-outline::before {
+  mask: url(../img/sprite.svg#rainy-outline) no-repeat;
+}
+.icon-rainy-sharp::before {
+  mask: url(../img/sprite.svg#rainy-sharp) no-repeat;
+}
+.icon-reader::before {
+  mask: url(../img/sprite.svg#reader) no-repeat;
+}
+.icon-reader-outline::before {
+  mask: url(../img/sprite.svg#reader-outline) no-repeat;
+}
+.icon-reader-sharp::before {
+  mask: url(../img/sprite.svg#reader-sharp) no-repeat;
+}
+.icon-receipt::before {
+  mask: url(../img/sprite.svg#receipt) no-repeat;
+}
+.icon-receipt-outline::before {
+  mask: url(../img/sprite.svg#receipt-outline) no-repeat;
+}
+.icon-receipt-sharp::before {
+  mask: url(../img/sprite.svg#receipt-sharp) no-repeat;
+}
+.icon-recording::before {
+  mask: url(../img/sprite.svg#recording) no-repeat;
+}
+.icon-recording-outline::before {
+  mask: url(../img/sprite.svg#recording-outline) no-repeat;
+}
+.icon-recording-sharp::before {
+  mask: url(../img/sprite.svg#recording-sharp) no-repeat;
+}
+.icon-refresh::before {
+  mask: url(../img/sprite.svg#refresh) no-repeat;
+}
+.icon-refresh-circle::before {
+  mask: url(../img/sprite.svg#refresh-circle) no-repeat;
+}
+.icon-refresh-circle-outline::before {
+  mask: url(../img/sprite.svg#refresh-circle-outline) no-repeat;
+}
+.icon-refresh-circle-sharp::before {
+  mask: url(../img/sprite.svg#refresh-circle-sharp) no-repeat;
+}
+.icon-refresh-outline::before {
+  mask: url(../img/sprite.svg#refresh-outline) no-repeat;
+}
+.icon-refresh-sharp::before {
+  mask: url(../img/sprite.svg#refresh-sharp) no-repeat;
+}
+.icon-reload::before {
+  mask: url(../img/sprite.svg#reload) no-repeat;
+}
+.icon-reload-circle::before {
+  mask: url(../img/sprite.svg#reload-circle) no-repeat;
+}
+.icon-reload-circle-outline::before {
+  mask: url(../img/sprite.svg#reload-circle-outline) no-repeat;
+}
+.icon-reload-circle-sharp::before {
+  mask: url(../img/sprite.svg#reload-circle-sharp) no-repeat;
+}
+.icon-reload-outline::before {
+  mask: url(../img/sprite.svg#reload-outline) no-repeat;
+}
+.icon-reload-sharp::before {
+  mask: url(../img/sprite.svg#reload-sharp) no-repeat;
+}
+.icon-remove::before {
+  mask: url(../img/sprite.svg#remove) no-repeat;
+}
+.icon-remove-circle::before {
+  mask: url(../img/sprite.svg#remove-circle) no-repeat;
+}
+.icon-remove-circle-outline::before {
+  mask: url(../img/sprite.svg#remove-circle-outline) no-repeat;
+}
+.icon-remove-circle-sharp::before {
+  mask: url(../img/sprite.svg#remove-circle-sharp) no-repeat;
+}
+.icon-remove-outline::before {
+  mask: url(../img/sprite.svg#remove-outline) no-repeat;
+}
+.icon-remove-sharp::before {
+  mask: url(../img/sprite.svg#remove-sharp) no-repeat;
+}
+.icon-reorder-four::before {
+  mask: url(../img/sprite.svg#reorder-four) no-repeat;
+}
+.icon-reorder-four-outline::before {
+  mask: url(../img/sprite.svg#reorder-four-outline) no-repeat;
+}
+.icon-reorder-four-sharp::before {
+  mask: url(../img/sprite.svg#reorder-four-sharp) no-repeat;
+}
+.icon-reorder-three::before {
+  mask: url(../img/sprite.svg#reorder-three) no-repeat;
+}
+.icon-reorder-three-outline::before {
+  mask: url(../img/sprite.svg#reorder-three-outline) no-repeat;
+}
+.icon-reorder-three-sharp::before {
+  mask: url(../img/sprite.svg#reorder-three-sharp) no-repeat;
+}
+.icon-reorder-two::before {
+  mask: url(../img/sprite.svg#reorder-two) no-repeat;
+}
+.icon-reorder-two-outline::before {
+  mask: url(../img/sprite.svg#reorder-two-outline) no-repeat;
+}
+.icon-reorder-two-sharp::before {
+  mask: url(../img/sprite.svg#reorder-two-sharp) no-repeat;
+}
+.icon-repeat::before {
+  mask: url(../img/sprite.svg#repeat) no-repeat;
+}
+.icon-repeat-outline::before {
+  mask: url(../img/sprite.svg#repeat-outline) no-repeat;
+}
+.icon-repeat-sharp::before {
+  mask: url(../img/sprite.svg#repeat-sharp) no-repeat;
+}
+.icon-resize::before {
+  mask: url(../img/sprite.svg#resize) no-repeat;
+}
+.icon-resize-outline::before {
+  mask: url(../img/sprite.svg#resize-outline) no-repeat;
+}
+.icon-resize-sharp::before {
+  mask: url(../img/sprite.svg#resize-sharp) no-repeat;
+}
+.icon-restaurant::before {
+  mask: url(../img/sprite.svg#restaurant) no-repeat;
+}
+.icon-restaurant-outline::before {
+  mask: url(../img/sprite.svg#restaurant-outline) no-repeat;
+}
+.icon-restaurant-sharp::before {
+  mask: url(../img/sprite.svg#restaurant-sharp) no-repeat;
+}
+.icon-return-down-back::before {
+  mask: url(../img/sprite.svg#return-down-back) no-repeat;
+}
+.icon-return-down-back-outline::before {
+  mask: url(../img/sprite.svg#return-down-back-outline) no-repeat;
+}
+.icon-return-down-back-sharp::before {
+  mask: url(../img/sprite.svg#return-down-back-sharp) no-repeat;
+}
+.icon-return-down-forward::before {
+  mask: url(../img/sprite.svg#return-down-forward) no-repeat;
+}
+.icon-return-down-forward-outline::before {
+  mask: url(../img/sprite.svg#return-down-forward-outline) no-repeat;
+}
+.icon-return-down-forward-sharp::before {
+  mask: url(../img/sprite.svg#return-down-forward-sharp) no-repeat;
+}
+.icon-return-up-back::before {
+  mask: url(../img/sprite.svg#return-up-back) no-repeat;
+}
+.icon-return-up-back-outline::before {
+  mask: url(../img/sprite.svg#return-up-back-outline) no-repeat;
+}
+.icon-return-up-back-sharp::before {
+  mask: url(../img/sprite.svg#return-up-back-sharp) no-repeat;
+}
+.icon-return-up-forward::before {
+  mask: url(../img/sprite.svg#return-up-forward) no-repeat;
+}
+.icon-return-up-forward-outline::before {
+  mask: url(../img/sprite.svg#return-up-forward-outline) no-repeat;
+}
+.icon-return-up-forward-sharp::before {
+  mask: url(../img/sprite.svg#return-up-forward-sharp) no-repeat;
+}
+.icon-ribbon::before {
+  mask: url(../img/sprite.svg#ribbon) no-repeat;
+}
+.icon-ribbon-outline::before {
+  mask: url(../img/sprite.svg#ribbon-outline) no-repeat;
+}
+.icon-ribbon-sharp::before {
+  mask: url(../img/sprite.svg#ribbon-sharp) no-repeat;
+}
+.icon-rocket::before {
+  mask: url(../img/sprite.svg#rocket) no-repeat;
+}
+.icon-rocket-outline::before {
+  mask: url(../img/sprite.svg#rocket-outline) no-repeat;
+}
+.icon-rocket-sharp::before {
+  mask: url(../img/sprite.svg#rocket-sharp) no-repeat;
+}
+.icon-rose::before {
+  mask: url(../img/sprite.svg#rose) no-repeat;
+}
+.icon-rose-outline::before {
+  mask: url(../img/sprite.svg#rose-outline) no-repeat;
+}
+.icon-rose-sharp::before {
+  mask: url(../img/sprite.svg#rose-sharp) no-repeat;
+}
+.icon-sad::before {
+  mask: url(../img/sprite.svg#sad) no-repeat;
+}
+.icon-sad-outline::before {
+  mask: url(../img/sprite.svg#sad-outline) no-repeat;
+}
+.icon-sad-sharp::before {
+  mask: url(../img/sprite.svg#sad-sharp) no-repeat;
+}
+.icon-save::before {
+  mask: url(../img/sprite.svg#save) no-repeat;
+}
+.icon-save-outline::before {
+  mask: url(../img/sprite.svg#save-outline) no-repeat;
+}
+.icon-save-sharp::before {
+  mask: url(../img/sprite.svg#save-sharp) no-repeat;
+}
+.icon-scan::before {
+  mask: url(../img/sprite.svg#scan) no-repeat;
+}
+.icon-scan-circle::before {
+  mask: url(../img/sprite.svg#scan-circle) no-repeat;
+}
+.icon-scan-circle-outline::before {
+  mask: url(../img/sprite.svg#scan-circle-outline) no-repeat;
+}
+.icon-scan-circle-sharp::before {
+  mask: url(../img/sprite.svg#scan-circle-sharp) no-repeat;
+}
+.icon-scan-outline::before {
+  mask: url(../img/sprite.svg#scan-outline) no-repeat;
+}
+.icon-scan-sharp::before {
+  mask: url(../img/sprite.svg#scan-sharp) no-repeat;
+}
+.icon-school::before {
+  mask: url(../img/sprite.svg#school) no-repeat;
+}
+.icon-school-outline::before {
+  mask: url(../img/sprite.svg#school-outline) no-repeat;
+}
+.icon-school-sharp::before {
+  mask: url(../img/sprite.svg#school-sharp) no-repeat;
+}
+.icon-search::before {
+  mask: url(../img/sprite.svg#search) no-repeat;
+}
+.icon-search-circle::before {
+  mask: url(../img/sprite.svg#search-circle) no-repeat;
+}
+.icon-search-circle-outline::before {
+  mask: url(../img/sprite.svg#search-circle-outline) no-repeat;
+}
+.icon-search-circle-sharp::before {
+  mask: url(../img/sprite.svg#search-circle-sharp) no-repeat;
+}
+.icon-search-outline::before {
+  mask: url(../img/sprite.svg#search-outline) no-repeat;
+}
+.icon-search-sharp::before {
+  mask: url(../img/sprite.svg#search-sharp) no-repeat;
+}
+.icon-send::before {
+  mask: url(../img/sprite.svg#send) no-repeat;
+}
+.icon-send-outline::before {
+  mask: url(../img/sprite.svg#send-outline) no-repeat;
+}
+.icon-send-sharp::before {
+  mask: url(../img/sprite.svg#send-sharp) no-repeat;
+}
+.icon-server::before {
+  mask: url(../img/sprite.svg#server) no-repeat;
+}
+.icon-server-outline::before {
+  mask: url(../img/sprite.svg#server-outline) no-repeat;
+}
+.icon-server-sharp::before {
+  mask: url(../img/sprite.svg#server-sharp) no-repeat;
+}
+.icon-settings::before {
+  mask: url(../img/sprite.svg#settings) no-repeat;
+}
+.icon-settings-outline::before {
+  mask: url(../img/sprite.svg#settings-outline) no-repeat;
+}
+.icon-settings-sharp::before {
+  mask: url(../img/sprite.svg#settings-sharp) no-repeat;
+}
+.icon-shapes::before {
+  mask: url(../img/sprite.svg#shapes) no-repeat;
+}
+.icon-shapes-outline::before {
+  mask: url(../img/sprite.svg#shapes-outline) no-repeat;
+}
+.icon-shapes-sharp::before {
+  mask: url(../img/sprite.svg#shapes-sharp) no-repeat;
+}
+.icon-share::before {
+  mask: url(../img/sprite.svg#share) no-repeat;
+}
+.icon-share-outline::before {
+  mask: url(../img/sprite.svg#share-outline) no-repeat;
+}
+.icon-share-sharp::before {
+  mask: url(../img/sprite.svg#share-sharp) no-repeat;
+}
+.icon-share-social::before {
+  mask: url(../img/sprite.svg#share-social) no-repeat;
+}
+.icon-share-social-outline::before {
+  mask: url(../img/sprite.svg#share-social-outline) no-repeat;
+}
+.icon-share-social-sharp::before {
+  mask: url(../img/sprite.svg#share-social-sharp) no-repeat;
+}
+.icon-shield::before {
+  mask: url(../img/sprite.svg#shield) no-repeat;
+}
+.icon-shield-checkmark::before {
+  mask: url(../img/sprite.svg#shield-checkmark) no-repeat;
+}
+.icon-shield-checkmark-outline::before {
+  mask: url(../img/sprite.svg#shield-checkmark-outline) no-repeat;
+}
+.icon-shield-checkmark-sharp::before {
+  mask: url(../img/sprite.svg#shield-checkmark-sharp) no-repeat;
+}
+.icon-shield-outline::before {
+  mask: url(../img/sprite.svg#shield-outline) no-repeat;
+}
+.icon-shield-sharp::before {
+  mask: url(../img/sprite.svg#shield-sharp) no-repeat;
+}
+.icon-shirt::before {
+  mask: url(../img/sprite.svg#shirt) no-repeat;
+}
+.icon-shirt-outline::before {
+  mask: url(../img/sprite.svg#shirt-outline) no-repeat;
+}
+.icon-shirt-sharp::before {
+  mask: url(../img/sprite.svg#shirt-sharp) no-repeat;
+}
+.icon-shuffle::before {
+  mask: url(../img/sprite.svg#shuffle) no-repeat;
+}
+.icon-shuffle-outline::before {
+  mask: url(../img/sprite.svg#shuffle-outline) no-repeat;
+}
+.icon-shuffle-sharp::before {
+  mask: url(../img/sprite.svg#shuffle-sharp) no-repeat;
+}
+.icon-skull::before {
+  mask: url(../img/sprite.svg#skull) no-repeat;
+}
+.icon-skull-outline::before {
+  mask: url(../img/sprite.svg#skull-outline) no-repeat;
+}
+.icon-skull-sharp::before {
+  mask: url(../img/sprite.svg#skull-sharp) no-repeat;
+}
+.icon-snow::before {
+  mask: url(../img/sprite.svg#snow) no-repeat;
+}
+.icon-snow-outline::before {
+  mask: url(../img/sprite.svg#snow-outline) no-repeat;
+}
+.icon-snow-sharp::before {
+  mask: url(../img/sprite.svg#snow-sharp) no-repeat;
+}
+.icon-speedometer::before {
+  mask: url(../img/sprite.svg#speedometer) no-repeat;
+}
+.icon-speedometer-outline::before {
+  mask: url(../img/sprite.svg#speedometer-outline) no-repeat;
+}
+.icon-speedometer-sharp::before {
+  mask: url(../img/sprite.svg#speedometer-sharp) no-repeat;
+}
+.icon-square::before {
+  mask: url(../img/sprite.svg#square) no-repeat;
+}
+.icon-square-outline::before {
+  mask: url(../img/sprite.svg#square-outline) no-repeat;
+}
+.icon-square-sharp::before {
+  mask: url(../img/sprite.svg#square-sharp) no-repeat;
+}
+.icon-star::before {
+  mask: url(../img/sprite.svg#star) no-repeat;
+}
+.icon-star-half::before {
+  mask: url(../img/sprite.svg#star-half) no-repeat;
+}
+.icon-star-half-outline::before {
+  mask: url(../img/sprite.svg#star-half-outline) no-repeat;
+}
+.icon-star-half-sharp::before {
+  mask: url(../img/sprite.svg#star-half-sharp) no-repeat;
+}
+.icon-star-outline::before {
+  mask: url(../img/sprite.svg#star-outline) no-repeat;
+}
+.icon-star-sharp::before {
+  mask: url(../img/sprite.svg#star-sharp) no-repeat;
+}
+.icon-stats-chart::before {
+  mask: url(../img/sprite.svg#stats-chart) no-repeat;
+}
+.icon-stats-chart-outline::before {
+  mask: url(../img/sprite.svg#stats-chart-outline) no-repeat;
+}
+.icon-stats-chart-sharp::before {
+  mask: url(../img/sprite.svg#stats-chart-sharp) no-repeat;
+}
+.icon-stop::before {
+  mask: url(../img/sprite.svg#stop) no-repeat;
+}
+.icon-stop-circle::before {
+  mask: url(../img/sprite.svg#stop-circle) no-repeat;
+}
+.icon-stop-circle-outline::before {
+  mask: url(../img/sprite.svg#stop-circle-outline) no-repeat;
+}
+.icon-stop-circle-sharp::before {
+  mask: url(../img/sprite.svg#stop-circle-sharp) no-repeat;
+}
+.icon-stop-outline::before {
+  mask: url(../img/sprite.svg#stop-outline) no-repeat;
+}
+.icon-stop-sharp::before {
+  mask: url(../img/sprite.svg#stop-sharp) no-repeat;
+}
+.icon-stopwatch::before {
+  mask: url(../img/sprite.svg#stopwatch) no-repeat;
+}
+.icon-stopwatch-outline::before {
+  mask: url(../img/sprite.svg#stopwatch-outline) no-repeat;
+}
+.icon-stopwatch-sharp::before {
+  mask: url(../img/sprite.svg#stopwatch-sharp) no-repeat;
+}
+.icon-subway::before {
+  mask: url(../img/sprite.svg#subway) no-repeat;
+}
+.icon-subway-outline::before {
+  mask: url(../img/sprite.svg#subway-outline) no-repeat;
+}
+.icon-subway-sharp::before {
+  mask: url(../img/sprite.svg#subway-sharp) no-repeat;
+}
+.icon-sunny::before {
+  mask: url(../img/sprite.svg#sunny) no-repeat;
+}
+.icon-sunny-outline::before {
+  mask: url(../img/sprite.svg#sunny-outline) no-repeat;
+}
+.icon-sunny-sharp::before {
+  mask: url(../img/sprite.svg#sunny-sharp) no-repeat;
+}
+.icon-swap-horizontal::before {
+  mask: url(../img/sprite.svg#swap-horizontal) no-repeat;
+}
+.icon-swap-horizontal-outline::before {
+  mask: url(../img/sprite.svg#swap-horizontal-outline) no-repeat;
+}
+.icon-swap-horizontal-sharp::before {
+  mask: url(../img/sprite.svg#swap-horizontal-sharp) no-repeat;
+}
+.icon-swap-vertical::before {
+  mask: url(../img/sprite.svg#swap-vertical) no-repeat;
+}
+.icon-swap-vertical-outline::before {
+  mask: url(../img/sprite.svg#swap-vertical-outline) no-repeat;
+}
+.icon-swap-vertical-sharp::before {
+  mask: url(../img/sprite.svg#swap-vertical-sharp) no-repeat;
+}
+.icon-sync::before {
+  mask: url(../img/sprite.svg#sync) no-repeat;
+}
+.icon-sync-circle::before {
+  mask: url(../img/sprite.svg#sync-circle) no-repeat;
+}
+.icon-sync-circle-outline::before {
+  mask: url(../img/sprite.svg#sync-circle-outline) no-repeat;
+}
+.icon-sync-circle-sharp::before {
+  mask: url(../img/sprite.svg#sync-circle-sharp) no-repeat;
+}
+.icon-sync-outline::before {
+  mask: url(../img/sprite.svg#sync-outline) no-repeat;
+}
+.icon-sync-sharp::before {
+  mask: url(../img/sprite.svg#sync-sharp) no-repeat;
+}
+.icon-tablet-landscape::before {
+  mask: url(../img/sprite.svg#tablet-landscape) no-repeat;
+}
+.icon-tablet-landscape-outline::before {
+  mask: url(../img/sprite.svg#tablet-landscape-outline) no-repeat;
+}
+.icon-tablet-landscape-sharp::before {
+  mask: url(../img/sprite.svg#tablet-landscape-sharp) no-repeat;
+}
+.icon-tablet-portrait::before {
+  mask: url(../img/sprite.svg#tablet-portrait) no-repeat;
+}
+.icon-tablet-portrait-outline::before {
+  mask: url(../img/sprite.svg#tablet-portrait-outline) no-repeat;
+}
+.icon-tablet-portrait-sharp::before {
+  mask: url(../img/sprite.svg#tablet-portrait-sharp) no-repeat;
+}
+.icon-tennisball::before {
+  mask: url(../img/sprite.svg#tennisball) no-repeat;
+}
+.icon-tennisball-outline::before {
+  mask: url(../img/sprite.svg#tennisball-outline) no-repeat;
+}
+.icon-tennisball-sharp::before {
+  mask: url(../img/sprite.svg#tennisball-sharp) no-repeat;
+}
+.icon-terminal::before {
+  mask: url(../img/sprite.svg#terminal) no-repeat;
+}
+.icon-terminal-outline::before {
+  mask: url(../img/sprite.svg#terminal-outline) no-repeat;
+}
+.icon-terminal-sharp::before {
+  mask: url(../img/sprite.svg#terminal-sharp) no-repeat;
+}
+.icon-text::before {
+  mask: url(../img/sprite.svg#text) no-repeat;
+}
+.icon-text-outline::before {
+  mask: url(../img/sprite.svg#text-outline) no-repeat;
+}
+.icon-text-sharp::before {
+  mask: url(../img/sprite.svg#text-sharp) no-repeat;
+}
+.icon-thermometer::before {
+  mask: url(../img/sprite.svg#thermometer) no-repeat;
+}
+.icon-thermometer-outline::before {
+  mask: url(../img/sprite.svg#thermometer-outline) no-repeat;
+}
+.icon-thermometer-sharp::before {
+  mask: url(../img/sprite.svg#thermometer-sharp) no-repeat;
+}
+.icon-thumbs-down::before {
+  mask: url(../img/sprite.svg#thumbs-down) no-repeat;
+}
+.icon-thumbs-down-outline::before {
+  mask: url(../img/sprite.svg#thumbs-down-outline) no-repeat;
+}
+.icon-thumbs-down-sharp::before {
+  mask: url(../img/sprite.svg#thumbs-down-sharp) no-repeat;
+}
+.icon-thumbs-up::before {
+  mask: url(../img/sprite.svg#thumbs-up) no-repeat;
+}
+.icon-thumbs-up-outline::before {
+  mask: url(../img/sprite.svg#thumbs-up-outline) no-repeat;
+}
+.icon-thumbs-up-sharp::before {
+  mask: url(../img/sprite.svg#thumbs-up-sharp) no-repeat;
+}
+.icon-thunderstorm::before {
+  mask: url(../img/sprite.svg#thunderstorm) no-repeat;
+}
+.icon-thunderstorm-outline::before {
+  mask: url(../img/sprite.svg#thunderstorm-outline) no-repeat;
+}
+.icon-thunderstorm-sharp::before {
+  mask: url(../img/sprite.svg#thunderstorm-sharp) no-repeat;
+}
+.icon-time::before {
+  mask: url(../img/sprite.svg#time) no-repeat;
+}
+.icon-time-outline::before {
+  mask: url(../img/sprite.svg#time-outline) no-repeat;
+}
+.icon-time-sharp::before {
+  mask: url(../img/sprite.svg#time-sharp) no-repeat;
+}
+.icon-timer::before {
+  mask: url(../img/sprite.svg#timer) no-repeat;
+}
+.icon-timer-outline::before {
+  mask: url(../img/sprite.svg#timer-outline) no-repeat;
+}
+.icon-timer-sharp::before {
+  mask: url(../img/sprite.svg#timer-sharp) no-repeat;
+}
+.icon-today::before {
+  mask: url(../img/sprite.svg#today) no-repeat;
+}
+.icon-today-outline::before {
+  mask: url(../img/sprite.svg#today-outline) no-repeat;
+}
+.icon-today-sharp::before {
+  mask: url(../img/sprite.svg#today-sharp) no-repeat;
+}
+.icon-toggle::before {
+  mask: url(../img/sprite.svg#toggle) no-repeat;
+}
+.icon-toggle-outline::before {
+  mask: url(../img/sprite.svg#toggle-outline) no-repeat;
+}
+.icon-toggle-sharp::before {
+  mask: url(../img/sprite.svg#toggle-sharp) no-repeat;
+}
+.icon-trail-sign::before {
+  mask: url(../img/sprite.svg#trail-sign) no-repeat;
+}
+.icon-trail-sign-outline::before {
+  mask: url(../img/sprite.svg#trail-sign-outline) no-repeat;
+}
+.icon-trail-sign-sharp::before {
+  mask: url(../img/sprite.svg#trail-sign-sharp) no-repeat;
+}
+.icon-train::before {
+  mask: url(../img/sprite.svg#train) no-repeat;
+}
+.icon-train-outline::before {
+  mask: url(../img/sprite.svg#train-outline) no-repeat;
+}
+.icon-train-sharp::before {
+  mask: url(../img/sprite.svg#train-sharp) no-repeat;
+}
+.icon-transgender::before {
+  mask: url(../img/sprite.svg#transgender) no-repeat;
+}
+.icon-transgender-outline::before {
+  mask: url(../img/sprite.svg#transgender-outline) no-repeat;
+}
+.icon-transgender-sharp::before {
+  mask: url(../img/sprite.svg#transgender-sharp) no-repeat;
+}
+.icon-trash::before {
+  mask: url(../img/sprite.svg#trash) no-repeat;
+}
+.icon-trash-bin::before {
+  mask: url(../img/sprite.svg#trash-bin) no-repeat;
+}
+.icon-trash-bin-outline::before {
+  mask: url(../img/sprite.svg#trash-bin-outline) no-repeat;
+}
+.icon-trash-bin-sharp::before {
+  mask: url(../img/sprite.svg#trash-bin-sharp) no-repeat;
+}
+.icon-trash-outline::before {
+  mask: url(../img/sprite.svg#trash-outline) no-repeat;
+}
+.icon-trash-sharp::before {
+  mask: url(../img/sprite.svg#trash-sharp) no-repeat;
+}
+.icon-trending-down::before {
+  mask: url(../img/sprite.svg#trending-down) no-repeat;
+}
+.icon-trending-down-outline::before {
+  mask: url(../img/sprite.svg#trending-down-outline) no-repeat;
+}
+.icon-trending-down-sharp::before {
+  mask: url(../img/sprite.svg#trending-down-sharp) no-repeat;
+}
+.icon-trending-up::before {
+  mask: url(../img/sprite.svg#trending-up) no-repeat;
+}
+.icon-trending-up-outline::before {
+  mask: url(../img/sprite.svg#trending-up-outline) no-repeat;
+}
+.icon-trending-up-sharp::before {
+  mask: url(../img/sprite.svg#trending-up-sharp) no-repeat;
+}
+.icon-triangle::before {
+  mask: url(../img/sprite.svg#triangle) no-repeat;
+}
+.icon-triangle-outline::before {
+  mask: url(../img/sprite.svg#triangle-outline) no-repeat;
+}
+.icon-triangle-sharp::before {
+  mask: url(../img/sprite.svg#triangle-sharp) no-repeat;
+}
+.icon-trophy::before {
+  mask: url(../img/sprite.svg#trophy) no-repeat;
+}
+.icon-trophy-outline::before {
+  mask: url(../img/sprite.svg#trophy-outline) no-repeat;
+}
+.icon-trophy-sharp::before {
+  mask: url(../img/sprite.svg#trophy-sharp) no-repeat;
+}
+.icon-tv::before {
+  mask: url(../img/sprite.svg#tv) no-repeat;
+}
+.icon-tv-outline::before {
+  mask: url(../img/sprite.svg#tv-outline) no-repeat;
+}
+.icon-tv-sharp::before {
+  mask: url(../img/sprite.svg#tv-sharp) no-repeat;
+}
+.icon-umbrella::before {
+  mask: url(../img/sprite.svg#umbrella) no-repeat;
+}
+.icon-umbrella-outline::before {
+  mask: url(../img/sprite.svg#umbrella-outline) no-repeat;
+}
+.icon-umbrella-sharp::before {
+  mask: url(../img/sprite.svg#umbrella-sharp) no-repeat;
+}
+.icon-videocam::before {
+  mask: url(../img/sprite.svg#videocam) no-repeat;
+}
+.icon-videocam-outline::before {
+  mask: url(../img/sprite.svg#videocam-outline) no-repeat;
+}
+.icon-videocam-sharp::before {
+  mask: url(../img/sprite.svg#videocam-sharp) no-repeat;
+}
+.icon-volume-high::before {
+  mask: url(../img/sprite.svg#volume-high) no-repeat;
+}
+.icon-volume-high-outline::before {
+  mask: url(../img/sprite.svg#volume-high-outline) no-repeat;
+}
+.icon-volume-high-sharp::before {
+  mask: url(../img/sprite.svg#volume-high-sharp) no-repeat;
+}
+.icon-volume-low::before {
+  mask: url(../img/sprite.svg#volume-low) no-repeat;
+}
+.icon-volume-low-outline::before {
+  mask: url(../img/sprite.svg#volume-low-outline) no-repeat;
+}
+.icon-volume-low-sharp::before {
+  mask: url(../img/sprite.svg#volume-low-sharp) no-repeat;
+}
+.icon-volume-medium::before {
+  mask: url(../img/sprite.svg#volume-medium) no-repeat;
+}
+.icon-volume-medium-outline::before {
+  mask: url(../img/sprite.svg#volume-medium-outline) no-repeat;
+}
+.icon-volume-medium-sharp::before {
+  mask: url(../img/sprite.svg#volume-medium-sharp) no-repeat;
+}
+.icon-volume-mute::before {
+  mask: url(../img/sprite.svg#volume-mute) no-repeat;
+}
+.icon-volume-mute-outline::before {
+  mask: url(../img/sprite.svg#volume-mute-outline) no-repeat;
+}
+.icon-volume-mute-sharp::before {
+  mask: url(../img/sprite.svg#volume-mute-sharp) no-repeat;
+}
+.icon-volume-off::before {
+  mask: url(../img/sprite.svg#volume-off) no-repeat;
+}
+.icon-volume-off-outline::before {
+  mask: url(../img/sprite.svg#volume-off-outline) no-repeat;
+}
+.icon-volume-off-sharp::before {
+  mask: url(../img/sprite.svg#volume-off-sharp) no-repeat;
+}
+.icon-walk::before {
+  mask: url(../img/sprite.svg#walk) no-repeat;
+}
+.icon-walk-outline::before {
+  mask: url(../img/sprite.svg#walk-outline) no-repeat;
+}
+.icon-walk-sharp::before {
+  mask: url(../img/sprite.svg#walk-sharp) no-repeat;
+}
+.icon-wallet::before {
+  mask: url(../img/sprite.svg#wallet) no-repeat;
+}
+.icon-wallet-outline::before {
+  mask: url(../img/sprite.svg#wallet-outline) no-repeat;
+}
+.icon-wallet-sharp::before {
+  mask: url(../img/sprite.svg#wallet-sharp) no-repeat;
+}
+.icon-warning::before {
+  mask: url(../img/sprite.svg#warning) no-repeat;
+}
+.icon-warning-outline::before {
+  mask: url(../img/sprite.svg#warning-outline) no-repeat;
+}
+.icon-warning-sharp::before {
+  mask: url(../img/sprite.svg#warning-sharp) no-repeat;
+}
+.icon-watch::before {
+  mask: url(../img/sprite.svg#watch) no-repeat;
+}
+.icon-watch-outline::before {
+  mask: url(../img/sprite.svg#watch-outline) no-repeat;
+}
+.icon-watch-sharp::before {
+  mask: url(../img/sprite.svg#watch-sharp) no-repeat;
+}
+.icon-water::before {
+  mask: url(../img/sprite.svg#water) no-repeat;
+}
+.icon-water-outline::before {
+  mask: url(../img/sprite.svg#water-outline) no-repeat;
+}
+.icon-water-sharp::before {
+  mask: url(../img/sprite.svg#water-sharp) no-repeat;
+}
+.icon-wifi::before {
+  mask: url(../img/sprite.svg#wifi) no-repeat;
+}
+.icon-wifi-outline::before {
+  mask: url(../img/sprite.svg#wifi-outline) no-repeat;
+}
+.icon-wifi-sharp::before {
+  mask: url(../img/sprite.svg#wifi-sharp) no-repeat;
+}
+.icon-wine::before {
+  mask: url(../img/sprite.svg#wine) no-repeat;
+}
+.icon-wine-outline::before {
+  mask: url(../img/sprite.svg#wine-outline) no-repeat;
+}
+.icon-wine-sharp::before {
+  mask: url(../img/sprite.svg#wine-sharp) no-repeat;
+}
+.icon-woman::before {
+  mask: url(../img/sprite.svg#woman) no-repeat;
+}
+.icon-woman-outline::before {
+  mask: url(../img/sprite.svg#woman-outline) no-repeat;
+}
+.icon-woman-sharp::before {
+  mask: url(../img/sprite.svg#woman-sharp) no-repeat;
 }
