@@ -6,6 +6,8 @@ www/manager/
 www/config.core.php
 www/index.php
 www/.htaccess
+www/setup/
+www/start_config/
 www/core/cache/
 www/core/components/
 www/core/config/
@@ -18,4 +20,3 @@ www/core/model/
 www/core/packages/
 www/core/xpdo/
 www/core/.htaccess
-

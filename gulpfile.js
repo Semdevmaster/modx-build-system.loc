@@ -190,7 +190,7 @@ const config = {
       sprite: 'img/sprite.svg',
       render: {
         css: {
-          template: 'src/elements/chunks/utils/icon_template.tpl',
+          template: 'www/core/elements/chunks/utils/icon_template.tpl',
           dest: 'css/modules/sprite.css'
         }
       }
