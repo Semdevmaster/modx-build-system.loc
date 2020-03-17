@@ -23,7 +23,7 @@
   margin-left: 0.3em;
   content: '/';
   text-align: center;
-  @apply text-gray-400;
+  @apply text-gray-500;
 }
 
 .breadcrumbs__item--active {
@@ -31,7 +31,7 @@
 }
 
 .breadcrumbs__element {
-  @apply text-gray-600;
+  @apply text-gray-700;
 
   &:hover {
     text-decoration: none;
