@@ -4,7 +4,8 @@
 @import 'modules/animations.css';
 /* components styles*/
 @import 'components/container.css';
-@import 'components/outside-bg.css';
+@import 'components/full-bleed.css';
+@import 'components/full-bleed-bg.css';
 @import 'components/icon.css';
 @import 'components/buttons.css';
 @import 'components/breadcrumbs.css';

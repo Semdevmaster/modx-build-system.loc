@@ -1,0 +1,11 @@
+@responsive {
+  .full-bleed {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+  }
+
+  .full-bleed-none {
+    width: auto;
+    margin-left: auto;
+  }
+}

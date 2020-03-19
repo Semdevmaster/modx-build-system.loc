@@ -6,12 +6,12 @@
     <title>{$_modx->resource.longtitle ?: $_modx->resource.pagetitle} | {$_modx->config.site_name}</title>
   {/block}
   <meta content="{$_modx->resource.description|strip:true|escape}" name="description">
+  <base href="{$_modx->config.site_url}">
   <link as="style" href="{$_modx->getPlaceholder('main_css_path')}" rel="preload">
   <link as="font" crossorigin="anonymous" href="assets/fonts/Roboto-Regular.woff2" rel="preload" type="font/woff2">
   <link as="font" crossorigin="anonymous" href="assets/fonts/Roboto-Bold.woff2" rel="preload" type="font/woff2">
   <link rel="preload" as="image" href="assets/img/sprite.svg">
-  <base href="{$_modx->config.site_url}">
-  <link rel="canonical" href="{if $_modx->resource.class_key == 'modSymLink'}{$_modx->makeUrl(($_modx->resource.id|resource:'content'), '', '', 'full')}{else}{$_modx->makeUrl($_modx->resource.id, '', '', 'full')}{/if}">
+  <link rel="canonical" href="{$_modx->makeUrl($_modx->resource.id, '', '', 'full')}">
   <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover" name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
   <meta name="format-detection" content="telephone=no,address=no,date=no,email=no">
@@ -27,7 +27,7 @@
   <link href="{$_modx->getPlaceholder('main_css_path')}" rel="stylesheet">
   {block 'add_css'}{/block}
   <script defer src="{$_modx->getPlaceholder('main_js_path')}"></script>
-  <script defer src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+{*  <script defer src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>*}
   {block 'add_js'}{/block}
 </head>
 <body>
