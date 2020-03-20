@@ -27,6 +27,7 @@ const flatten = require('gulp-flatten');
 const remember = require('gulp-remember');
 const cached = require('gulp-cached');
 const hash = require('gulp-hash');
+const rename = require('gulp-rename');
 const path = require('path');
 const fs = require('fs');
 const { create } = require('browser-sync');
@@ -110,13 +111,59 @@ const css = () =>
     }))
     .pipe(dest('.'));
 exports.css = css;
+
+const cssProd = () =>
+  src('src/css/style.css')
+    .pipe(plumber())
+    .pipe(rename('style.min.css'))
+    .pipe(hash())
+    .pipe(postcss([
+      postcssImport({ path: ['src/css'] }),
+      postcssNormalize({ forceImport: true }),
+      tailwind(),
+      postcssPresetEnv({
+        stage: 2,
+        features: {
+          'nesting-rules': true
+        },
+        autoprefixer: { cascade: false }
+      })
+    ]))
+    .pipe(gulpPurgeCss({
+      content: ['www/core/elements/**/*.tpl', 'src/js/**/*.js', 'src/js/**/*.ts'],
+      defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+    }))
+    .pipe(postcss([postcssCsso({
+      restructure: false,
+      comments: false
+    })]))
+    .pipe(dest(cms.modx.css))
+    .pipe(hash.manifest('www/assets/assets.json', {
+      deleteOld: true,
+      sourceDir: __dirname + '/www/assets/css'
+    }))
+    .pipe(dest('.'));
+exports.cssProd = cssProd;
 /****************************************************************************************************/
 // JS TASK WITH BABEL AND WEBPACK
 /****************************************************************************************************/
 const js = () =>
   src('src/js/main.js')
     .pipe(plumber())
-    .pipe(gulpwebpack(require('./webpack.config.js'), webpack))
+    .pipe(gulpwebpack({
+      mode: 'development',
+      entry: './src/js/main.js',
+      output: {
+        filename: 'main.js',
+      },
+      plugins: [],
+      module: {
+        rules: [
+          { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
+        ],
+      },
+      devtool: 'eval'
+    }, webpack))
     .pipe(hash())
     .pipe(dest(cms.modx.js))
     .pipe(hash.manifest('www/assets/assets.json', {
@@ -125,6 +172,32 @@ const js = () =>
     }))
     .pipe(dest('.'));
 exports.js = js;
+
+const jsProd = () =>
+  src('src/js/main.js')
+    .pipe(plumber())
+    .pipe(gulpwebpack({
+      mode: 'production',
+      entry: './src/js/main.js',
+      output: {
+        filename: 'main.min.js',
+      },
+      plugins: [],
+      module: {
+        rules: [
+          { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
+        ],
+      },
+      devtool: undefined
+    }, webpack))
+    .pipe(hash())
+    .pipe(dest(cms.modx.js))
+    .pipe(hash.manifest('www/assets/assets.json', {
+      deleteOld: true,
+      sourceDir: __dirname + '/www/assets/js'
+    }))
+    .pipe(dest('.'));
+exports.jsProd = jsProd;
 /****************************************************************************************************/
 // LIBS TASK
 /****************************************************************************************************/

@@ -58,6 +58,7 @@
     "gulp-postcss": "^8.0.0",
     "gulp-purgecss": "^2.1.0",
     "gulp-remember": "^1.0.1",
+    "gulp-rename": "^2.0.0",
     "gulp-svg-sprite": "^1.5.0",
     "gulp-typescript": "^5.0.1",
     "gulp-uglify-es": "^2.0.0",
@@ -80,7 +81,7 @@
     "webpack-stream": "^5.2.1"
   },
   "scripts": {
-    "production-build": "cross-env NODE_ENV=production gulp clean build --series",
+    "production-build": "cross-env NODE_ENV=production gulp cssProd jsProd --series",
     "browserslist": "npx browserslist",
     "tailwindcss": "npx tailwind build node_modules/tailwindcss/utilities.css -o src/css/modules/tailwind.css --no-autoprefixer"
   },

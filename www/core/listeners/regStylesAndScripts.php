@@ -13,10 +13,14 @@ class RegStylesAndScriptsListener extends Middlewares\Listener
     if (file_exists($manifest)) {
       $files = json_decode(file_get_contents($manifest), true);
       foreach ($files as $file) {
-        if (strpos($file, '.css')) {
+        if (strpos($file, 'e.min-')) {
           pls(['main_css_path' => 'assets/css/' . $file]);
-        } elseif (strpos($file, '.js')) {
+        } elseif (strpos($file, 'e-')) {
+          pls(['dev_css_path' => 'assets/css/' . $file]);
+        } elseif (strpos($file, 'n.min-')) {
           pls(['main_js_path' => 'assets/js/' . $file]);
+        } elseif (strpos($file, 'n-')) {
+          pls(['dev_js_path' => 'assets/js/' . $file]);
         }
       }
     }

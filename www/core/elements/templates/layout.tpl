@@ -7,10 +7,14 @@
   {/block}
   <meta content="{$_modx->resource.description|strip:true|escape}" name="description">
   <base href="{$_modx->config.site_url}">
-  <link as="style" href="{$_modx->getPlaceholder('main_css_path')}" rel="preload">
+  {if $_modx->getPlaceholder('dev_css_path') && $_modx->user.id === 1}
+    <link as="style" href="{$_modx->getPlaceholder('dev_css_path')}" rel="preload">
+  {else}
+    <link as="style" href="{$_modx->getPlaceholder('main_css_path')}" rel="preload">
+  {/if}
   <link as="font" crossorigin="anonymous" href="assets/fonts/Roboto-Regular.woff2" rel="preload" type="font/woff2">
   <link as="font" crossorigin="anonymous" href="assets/fonts/Roboto-Bold.woff2" rel="preload" type="font/woff2">
-  <link rel="preload" as="image" href="assets/img/sprite.svg">
+  {*  <link rel="preload" as="image" href="assets/img/sprite.svg">*}
   <link rel="canonical" href="{$_modx->makeUrl($_modx->resource.id, '', '', 'full')}">
   <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover" name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
@@ -24,10 +28,20 @@
   <link rel="icon" type="image/png" href="assets/img/favicons/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="assets/img/favicons/favicon-48x48.png" sizes="194x194">
   <link rel="icon" type="image/png" href="assets/img/favicons/favicon-16x16.png" sizes="16x16">
-  <link href="{$_modx->getPlaceholder('main_css_path')}" rel="stylesheet">
+  {if $_modx->getPlaceholder('dev_css_path') && $_modx->user.id === 1}
+    <link href="{$_modx->getPlaceholder('dev_css_path')}" rel="stylesheet">
+  {else}
+    <link href="{$_modx->getPlaceholder('main_css_path')}" rel="stylesheet">
+  {/if}
+
   {block 'add_css'}{/block}
-  <script defer src="{$_modx->getPlaceholder('main_js_path')}"></script>
-{*  <script defer src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>*}
+
+  {if $_modx->getPlaceholder('dev_js_path') && $_modx->user.id === 1}
+    <script defer src="{$_modx->getPlaceholder('dev_js_path')}"></script>
+  {else}
+    <script defer src="{$_modx->getPlaceholder('main_js_path')}"></script>
+  {/if}
+  {*  <script defer src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>*}
   {block 'add_js'}{/block}
 </head>
 <body>
