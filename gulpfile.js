@@ -43,9 +43,15 @@ const browserSync = create();
 /****************************************************************************************************/
 // BROWSER-SYNC TASK
 /****************************************************************************************************/
+const domain_name = 'modx-build-system.loc';
 const serve = cb => {
   browserSync.init({
-    proxy: 'modx-build-system.loc',
+    host: `dev.${domain_name}`,
+    proxy: {
+      target: domain_name,
+      cookies: { stripDomain: false }
+    },
+    port: 3000,
     files: [
       'www/assets/**/*.*',
       'www/core/elements/**/*.*'

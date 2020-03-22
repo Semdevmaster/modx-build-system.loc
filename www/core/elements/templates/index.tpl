@@ -8,7 +8,7 @@
   <main class="container">
     {include 'file:chunks/utils/_breadcrumbs.tpl'}
     <h1 class="header-right-side-line">Заголовок первого уровня</h1>
-
+    {if $_modx->user.id ===1}Administrator{/if}
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae culpa distinctio ducimus eum ex expedita,
       in libero natus officia officiis pariatur praesentium quam quas quos vero voluptatibus. Inventore, laboriosam.</p>
     <button class="btn bg-pink-700 text-white hover:bg-accent ripple">Button</button>
@@ -16,7 +16,7 @@
     <button class="btn bg-blue-700 text-white hover:bg-accent ripple">Button</button>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque aut consequuntur debitis dicta dolorum eos
       error explicabo facilis fuga, illo laboriosam quis saepe sed ullam. Expedita magni minima temporibus.</p>
-    <div class="py-5 bg-primary text-white full-bleed">Hello</div>
+    <div class="py-5 bg-primary text-white full-bleed"></div>
   </main>
   <footer class="container full-bleed-bg bg-gray-900 text-white py-6">
     <small class="block text-center">&copy; Company {''|date_format:'%Y'}</small>

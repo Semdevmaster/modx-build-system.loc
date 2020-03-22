@@ -30,11 +30,11 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "^7.8.7",
-    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
-    "@babel/preset-env": "^7.8.7",
-    "@babel/register": "^7.8.6",
-    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "babel-loader": "^8.1.0",
     "browser-sync": "^2.26.7",
     "cross-env": "^7.0.2",
     "del": "^5.1.0",
@@ -74,7 +74,7 @@
     "webpack-stream": "^5.2.1"
   },
   "scripts": {
-    "production-build": "cross-env NODE_ENV=production gulp cssProd jsProd --series",
+    "production-build": "cross-env NODE_ENV=production gulp cssProd jsProd --parallel",
     "browserslist": "npx browserslist",
     "tailwindcss": "npx tailwind build node_modules/tailwindcss/utilities.css -o src/css/modules/tailwind.css --no-autoprefixer"
   },
