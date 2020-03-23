@@ -7,7 +7,7 @@ class RegStylesAndScriptsListener extends Middlewares\Listener
 {
 //    public $contexts = ['web', 'mgr'];
 
-  public function OnWebPageInit()
+  public function OnHandleRequest()
   {
     $manifest = $this->modx->getOption('assets_path') . 'assets.json';
     if (file_exists($manifest)) {
