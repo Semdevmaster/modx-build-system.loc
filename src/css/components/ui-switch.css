@@ -1,0 +1,48 @@
+.ui-switch-control {
+  --switch-color: #26a69a;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+.ui-switch-control-indicator::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transition: .3s;
+  top: -1px;
+  left: -1px;
+  background: #fdfdfd;
+  box-shadow: 0 2px 10px rgba(170, 170, 170, 0.5);
+}
+
+.ui-switch-control-input:checked ~ .ui-switch-control-indicator::after {
+  background-color: var(--switch-color, #000);
+  left: 17px;
+}
+
+.ui-switch-control-input {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.ui-switch-control-indicator {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  width: 32px;
+  height: 16px;
+  background-color: theme('colors.gray.300');
+  border-radius: 16px;
+  transition: .3s;
+}
+
+

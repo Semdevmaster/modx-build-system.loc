@@ -7,12 +7,13 @@
 @import 'components/full-bleed.css';
 @import 'components/full-bleed-bg.css';
 @import 'components/icon.css';
-@import 'components/buttons.css';
+@import 'components/ui-button.css';
 @import 'components/breadcrumbs.css';
-@import 'components/preloader.css';
-@import 'components/checkbox.css';
-@import 'components/radiobox.css';
-@import 'components/headers-side-lines.css';
+@import 'components/ui-preloader.css';
+@import 'components/ui-checkbox.css';
+@import 'components/ui-radiobox.css';
+@import 'components/ui-switch.css';
+@import 'components/side-lines.css';
 @import 'components/video-container.css';
 /* last styles */
 @import 'modules/tags.css';

@@ -32,7 +32,7 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-transform-modules-commonjs": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
     "@babel/register": "^7.9.0",
     "babel-loader": "^8.1.0",
     "browser-sync": "^2.26.7",
@@ -41,7 +41,7 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-compat": "^3.5.1",
-    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-promise": "^4.2.1",
     "gulp": "^4.0.2",
     "gulp-cached": "^1.1.1",
@@ -54,7 +54,7 @@
     "gulp-newer": "^1.4.0",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
-    "gulp-purgecss": "^2.1.0",
+    "gulp-purgecss": "^2.1.2",
     "gulp-remember": "^1.0.1",
     "gulp-rename": "^2.0.0",
     "gulp-svg-sprite": "^1.5.0",
@@ -63,14 +63,14 @@
     "npmfiles": "^0.1.3",
     "postcss-csso": "^4.0.0",
     "postcss-import": "^12.0.1",
-    "postcss-normalize": "^8.0.1",
+    "postcss-normalize": "^9.0.0",
     "postcss-preset-env": "^6.7.0",
-    "stylelint": "^13.2.1",
+    "stylelint": "^13.3.2",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-no-indistinguishable-colors": "^1.3.0",
     "stylelint-no-unsupported-browser-features": "^4.0.0",
     "tailwindcss": "^1.2.0",
-    "webpack": "^4.42.0",
+    "webpack": "^4.42.1",
     "webpack-stream": "^5.2.1"
   },
   "scripts": {
@@ -79,7 +79,7 @@
     "tailwindcss": "npx tailwind build node_modules/tailwindcss/utilities.css -o src/css/modules/tailwind.css --no-autoprefixer"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "photoswipe": "^4.1.3"
   }
 }

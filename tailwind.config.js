@@ -4,11 +4,11 @@ module.exports = {
   separator: ':',
   theme: {
     screens: {
+      xs: { 'max': '360px' },
       sm: '640px',
       md: '768px',
       lg: '1024px',
-      xl: '1280px',
-      'print': { 'raw': 'print' }
+      xl: '1140px',
     },
     colors: {
       transparent: 'transparent',
@@ -728,4 +728,4 @@ module.exports = {
     preflight: false
   },
   plugins: []
-}
+};

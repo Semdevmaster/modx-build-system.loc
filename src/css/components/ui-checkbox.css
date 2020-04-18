@@ -16,7 +16,7 @@
   transition: background-color .1s ease-in-out;
 
   &:checked {
-    background-color: currentColor;
+    background-color: theme('colors.gray.300');
   }
 
   &::before {
@@ -24,13 +24,14 @@
     display: block;
     width: 80%;
     height: 80%;
-    background-color: #fff;
+    background-color: transparent;
     clip-path: polygon(51% 54%, 51% 55%, 51% 54%, 51% 55%, 51% 54%, 51% 54%);
     will-change: clip-path;
     transition: clip-path 100ms ease-in-out;
   }
 
   &:checked::before {
+    background-color: theme('colors.gray.900');
     clip-path: polygon(8% 60%, 48% 93%, 93% 32%, 93% 5%, 46% 71%, 8% 40%);
   }
 
