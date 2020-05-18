@@ -25,7 +25,7 @@
   <link rel="icon" href="assets/img/favicons/favicon.svg">
   <link rel="mask-icon" href="assets/img/favicons/favicon.svg" color="#000000">
   <link rel="apple-touch-icon" href="assets/img/favicons/apple-touch-icon.png">{*180x180*}
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="assets/img/favicons/manifest.json">
 
   {if $_modx->getPlaceholder('dev_css_path') && $_modx->user.id === 1}
     <link href="{$_modx->getPlaceholder('dev_css_path')}" rel="stylesheet">
