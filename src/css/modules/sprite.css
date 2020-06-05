@@ -1,3 +1,12 @@
 .icon-add::before {
   mask: url(../img/sprite.svg#add) no-repeat;
 }
+.icon-chevron-down-outline::before {
+  mask: url(../img/sprite.svg#chevron-down-outline) no-repeat;
+}
+.icon-close-outline::before {
+  mask: url(../img/sprite.svg#close-outline) no-repeat;
+}
+.icon-menu-outline::before {
+  mask: url(../img/sprite.svg#menu-outline) no-repeat;
+}

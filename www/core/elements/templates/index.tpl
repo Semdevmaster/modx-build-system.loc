@@ -31,6 +31,40 @@
         <span class="ui-switch-control-description">Переключатель</span>
       </label>
     </div>
+    <button id="cl" class="inline-block border border-red-500">
+      <svg class="inline-icon text-3xl pointer-events-none">
+        <use xlink:href="assets/img/sprite.svg#menu-outline" class="menu-icon"></use>
+        <use xlink:href="assets/img/sprite.svg#close-outline" class="close-icon hidden"></use>
+      </svg>
+    </button>
+    <script>
+      const cl = document.querySelector('#cl')
+      const menuIcon = cl.querySelector('.menu-icon')
+      const closeIcon = cl.querySelector('.close-icon')
+      cl.addEventListener('click', () => {
+        menuIcon.classList.toggle('hidden')
+        closeIcon.classList.toggle('hidden')
+      })
+    </script>
+
+    <h2>Forms</h2>
+    <hr>
+    <div class="flex items-end">
+      <div>
+        <button class="ui-btn">Button</button>
+      </div>
+      <div>
+        <label class="block mb-1">Change your country</label>
+        <div class="ui-select">
+          <select name="country" aria-label="choose you country">
+            <option value="1">Russia</option>
+            <option value="2">Germany</option>
+            <option value="3">USA</option>
+            <option value="4">UK</option>
+          </select>
+        </div>
+      </div>
+    </div>
   </main>
   <footer class="container full-bleed-bg bg-gray-900 text-white py-6">
     <small class="block text-center">&copy; Company {''|date_format:'%Y'}</small>
