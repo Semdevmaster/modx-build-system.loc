@@ -3,7 +3,7 @@
 {block 'content'}
   <header class="container full-bleed-bg py-4 mb-4 bg-purple-700 flex flex-wrap justify-between items-center">
     <div class="text-2xl text-white">Logo</div>
-    <div class="icon icon-add icon-margin-right-sm text-white">phone</div>
+    <div class="icon icon-add icon-margin-right-sm text-white">add</div>
   </header>
   <main class="container">
     {include 'file:chunks/utils/_breadcrumbs.tpl'}

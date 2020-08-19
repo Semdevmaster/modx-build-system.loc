@@ -179,6 +179,17 @@ module.exports = {
       '64': '16rem',
     },
     backgroundColor: theme => theme('colors'),
+    backgroundImage: {
+      'gradient-to-t': 'linear-gradient(to top, var(--gradient-color-stops))',
+      'gradient-to-tr': 'linear-gradient(to top right, var(--gradient-color-stops))',
+      'gradient-to-r': 'linear-gradient(to right, var(--gradient-color-stops))',
+      'gradient-to-br': 'linear-gradient(to bottom right, var(--gradient-color-stops))',
+      'gradient-to-b': 'linear-gradient(to bottom, var(--gradient-color-stops))',
+      'gradient-to-bl': 'linear-gradient(to bottom left, var(--gradient-color-stops))',
+      'gradient-to-l': 'linear-gradient(to left, var(--gradient-color-stops))',
+      'gradient-to-tl': 'linear-gradient(to top left, var(--gradient-color-stops))',
+    },
+    gradientColorStops: theme => theme('colors'),
     backgroundOpacity: theme => theme('opacity'),
     backgroundPosition: {
       bottom: 'bottom',
@@ -666,15 +677,12 @@ module.exports = {
     },
     keyframes: {
       spin: {
-        from: { transform: 'rotate(0deg)' },
         to: { transform: 'rotate(360deg)' },
       },
       ping: {
-        '0%': { transform: 'scale(1)', opacity: '1' },
         '75%, 100%': { transform: 'scale(2)', opacity: '0' },
       },
       pulse: {
-        '0%, 100%': { opacity: '1' },
         '50%': { opacity: '.5' },
       },
       bounce: {
@@ -683,7 +691,7 @@ module.exports = {
           animationTimingFunction: 'cubic-bezier(0.8,0,1,1)',
         },
         '50%': {
-          transform: 'translateY(0)',
+          transform: 'none',
           animationTimingFunction: 'cubic-bezier(0,0,0.2,1)',
         },
       },
@@ -696,7 +704,10 @@ module.exports = {
     alignSelf: ['responsive'],
     appearance: ['responsive'],
     backgroundAttachment: ['responsive'],
+    backgroundClip: ['responsive'],
     backgroundColor: ['responsive', 'hover', 'focus'],
+    backgroundImage: ['responsive'],
+    gradientColorStops: ['responsive', 'hover', 'focus'],
     backgroundOpacity: ['responsive', 'hover', 'focus'],
     backgroundPosition: ['responsive'],
     backgroundRepeat: ['responsive'],
@@ -714,6 +725,7 @@ module.exports = {
     display: ['responsive'],
     divideColor: ['responsive'],
     divideOpacity: ['responsive'],
+    divideStyle: ['responsive'],
     divideWidth: ['responsive'],
     fill: ['responsive'],
     flex: ['responsive'],
@@ -794,5 +806,8 @@ module.exports = {
   corePlugins: {
     preflight: false
   },
-  plugins: []
+  plugins: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
 };
