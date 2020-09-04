@@ -8,7 +8,7 @@
   <meta content="{$_modx->resource.description|strip:true|escape}" name="description">
   <base href="{$_modx->config.site_url}">
   <link rel="canonical" href="{$_modx->makeUrl($_modx->resource.id, '', '', 'full')}">
-  {if $_modx->getPlaceholder('dev_css_path') && $_modx->user.id === 1}
+  {if $_modx->user.id === 1 && $_modx->getPlaceholder('dev_css_path')}
     <link as="style" href="{$_modx->getPlaceholder('dev_css_path')}" rel="preload">
   {else}
     <link as="style" href="{$_modx->getPlaceholder('main_css_path')}" rel="preload">
@@ -27,7 +27,7 @@
   <link rel="apple-touch-icon" href="assets/img/favicons/apple-touch-icon.png">{*180x180*}
   <link rel="manifest" href="assets/img/favicons/manifest.json">
 
-  {if $_modx->getPlaceholder('dev_css_path') && $_modx->user.id === 1}
+  {if $_modx->user.id === 1 && $_modx->getPlaceholder('dev_css_path')}
     <link href="{$_modx->getPlaceholder('dev_css_path')}" rel="stylesheet">
   {else}
     <link href="{$_modx->getPlaceholder('main_css_path')}" rel="stylesheet">
