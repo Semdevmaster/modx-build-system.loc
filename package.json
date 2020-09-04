@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "projectname",
+  "name": "modx-build-system.loc",
   "babel": {
     "presets": [
       "@babel/preset-env"
