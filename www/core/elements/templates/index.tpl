@@ -5,12 +5,18 @@
     <div class="text-2xl text-white">Logo</div>
     <div class="icon icon-add icon-margin-right-sm text-white">add</div>
   </header>
-  <main class="container">
+  <main class="container px-4">
     {include 'file:chunks/utils/_breadcrumbs.tpl'}
     <h1 class="side-line-right">Заголовок первого уровня</h1>
     {if $_modx->user.id ===1}Administrator{/if}
+    <p class="ordinal">1st</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae culpa distinctio ducimus eum ex expedita,
       in libero natus officia officiis pariatur praesentium quam quas quos vero voluptatibus. Inventore, laboriosam.</p>
+    <div class="flex gap-4 mb-4">
+      <div class="block px-4 py-4 bg-accent">Nice</div>
+      <div class="block px-4 py-4 bg-accent">Nice</div>
+      <div class="block px-4 py-4 bg-accent">Nice</div>
+    </div>
     <button class="ui-btn bg-pink-700 text-white hover:bg-accent ripple">Button</button>
     <button class="ui-btn bg-orange-700 text-white hover:bg-accent ripple">Button</button>
     <button class="ui-btn bg-blue-700 text-white hover:bg-accent ripple">Button</button>
