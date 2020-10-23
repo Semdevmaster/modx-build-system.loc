@@ -7,7 +7,7 @@
   </header>
   <main class="container px-4">
     {include 'file:chunks/utils/_breadcrumbs.tpl'}
-    <h1 class="side-line-right">Заголовок первого уровня</h1>
+    <h1 class="side-line-right font-third">Заголовок первого уровня</h1>
     {if $_modx->user.id ===1}Administrator{/if}
     <p class="ordinal">1st</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae culpa distinctio ducimus eum ex expedita,

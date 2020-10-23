@@ -15,7 +15,6 @@ const mainNpmFiles = require('npmfiles');
 const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
 const svgSprite = require('gulp-svg-sprite');
-const favicons = require('gulp-favicons');
 const plumber = require('gulp-plumber');
 const newer = require('gulp-newer');
 const debug = require('gulp-debug');
@@ -292,37 +291,6 @@ const svgicons = () =>
     .pipe(svgSprite(config))
     .pipe(dest('src'));
 exports.svgicons = svgicons;
-/****************************************************************************************************/
-// COPY FAVICON
-/****************************************************************************************************/
-const faviconsGenerator = () =>
-  src('src/img/favicons/favicon.png')
-    .pipe(favicons({
-      appName: 'My App',
-      appShortName: 'App',
-      appDescription: 'This is my application',
-      background: '#020307',
-      path: 'assets/img/favicons/',
-      url: 'http://mysite.ru/',
-      display: 'standalone',
-      lang: 'ru-RU',
-      orientation: 'portrait',
-      scope: '/',
-      start_url: '/',
-      version: 1.0,
-      logging: false,
-      html: 'index.html',
-      pipeHTML: true,
-      replace: true,
-      icons: {
-        coast: false,
-        firefox: false,
-        windows: false,
-        yandex: false
-      }
-    }))
-    .pipe(dest(cms.modx.favicon));
-exports.faviconsGenerator = faviconsGenerator;
 /****************************************************************************************************/
 // WATCHERS
 /****************************************************************************************************/
