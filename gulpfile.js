@@ -99,7 +99,7 @@ const css = () =>
     ]))
     .pipe(gulpIf(!isDevelopment, gulpPurgeCss({
       content: ['www/core/elements/**/*.tpl', 'src/js/**/*.js', 'src/js/**/*.ts'],
-      defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+      defaultExtractor: content => content.match(/[^<>"'`\s]*[^<>"'`\s:]/g) || []
     })))
     .pipe(gulpIf(!isDevelopment, postcss([postcssCsso({
       restructure: false,
@@ -132,7 +132,7 @@ const cssProd = () =>
     ]))
     .pipe(gulpPurgeCss({
       content: ['www/core/elements/**/*.tpl', 'src/js/**/*.js', 'src/js/**/*.ts'],
-      defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+      defaultExtractor: content => content.match(/[^<>"'`\s]*[^<>"'`\s:]/g) || []
     }))
     .pipe(postcss([postcssCsso({
       restructure: false,
