@@ -11,7 +11,7 @@ const tailwind = require('tailwindcss');
 const gulpPurgeCss = require('gulp-purgecss');
 const webpack = require('webpack');
 const gulpwebpack = require('webpack-stream');
-const mainNpmFiles = require('npmfiles');
+const npmDist = require('gulp-npm-dist');
 const imagemin = require('gulp-imagemin');
 const webp = require('gulp-webp');
 const svgSprite = require('gulp-svg-sprite');
@@ -20,7 +20,6 @@ const newer = require('gulp-newer');
 const debug = require('gulp-debug');
 const gulpIf = require('gulp-if');
 const del = require('del');
-const flatten = require('gulp-flatten');
 const remember = require('gulp-remember');
 const cached = require('gulp-cached');
 const hash = require('gulp-hash');
@@ -48,7 +47,7 @@ const serve = cb => {
     host: domain_name,
     proxy: domain_name,
     port: 3000,
-    https:true,
+    https: true,
     files: [
       'www/assets/**/*.*',
       'www/core/elements/**/*.*'
@@ -203,8 +202,10 @@ exports.jsProd = jsProd;
 // LIBS TASK
 /****************************************************************************************************/
 const libs = () =>
-  src(mainNpmFiles(), { base: './node_modules' })
-    .pipe(flatten({ includeParents: 1 }))
+  src(npmDist(), { base: './node_modules/' })
+    .pipe(rename(function (path) {
+      path.dirname = path.dirname.replace(/\/dist/, '').replace(/\\dist/, '');
+    }))
     .pipe(newer(cms.modx.libs))
     .pipe(dest(cms.modx.libs));
 exports.libs = libs;

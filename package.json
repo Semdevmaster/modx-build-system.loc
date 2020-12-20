@@ -14,64 +14,47 @@
       ]
     ]
   },
-  "overrides": {
-    "jquery": {
-      "main": "dist/jquery.min.js"
-    },
-    "photoswipe": {
-      "main": [
-        "dist/photoswipe.min.js",
-        "dist/photoswipe.css",
-        "dist/photoswipe-ui-default.min.js",
-        "dist/default-skin/default-skin.css",
-        "dist/default-skin/default-skin.png",
-        "dist/default-skin/default-skin.svg",
-        "dist/default-skin/preloader.gif"
-      ]
-    }
-  },
   "devDependencies": {
-    "@babel/core": "^7.12.3",
+    "@babel/core": "^7.12.10",
     "@babel/plugin-transform-modules-commonjs": "^7.12.1",
-    "@babel/preset-env": "^7.12.1",
-    "@babel/register": "^7.12.1",
-    "babel-loader": "^8.1.0",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "babel-loader": "^8.2.2",
     "browser-sync": "^2.26.13",
-    "cross-env": "^7.0.2",
+    "cross-env": "^7.0.3",
     "del": "^6.0.0",
-    "eslint": "^7.12.1",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-compat": "^3.8.0",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-compat": "^3.9.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-promise": "^4.2.1",
     "gulp": "^4.0.2",
     "gulp-cached": "^1.1.1",
     "gulp-debug": "^4.0.0",
-    "gulp-flatten": "^0.4.0",
     "gulp-hash": "^4.2.2",
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^7.1.0",
     "gulp-newer": "^1.4.0",
+    "gulp-npm-dist": "^1.0.3",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^9.0.0",
-    "gulp-purgecss": "^3.0.0",
+    "gulp-purgecss": "^3.1.3",
     "gulp-remember": "^1.0.1",
     "gulp-rename": "^2.0.0",
     "gulp-svg-sprite": "^1.5.0",
     "gulp-webp": "^4.0.1",
     "lodash": "^4.17.20",
-    "npmfiles": "^0.1.3",
     "postcss-csso": "^5.0.0",
-    "postcss-import": "^13.0.0",
+    "postcss-import": "^14.0.0",
     "postcss-normalize": "^9.0.0",
     "postcss-preset-env": "^6.7.0",
-    "stylelint": "^13.7.2",
+    "stylelint": "^13.8.0",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-no-indistinguishable-colors": "^1.3.0",
     "stylelint-no-unsupported-browser-features": "^4.1.4",
-    "tailwindcss": "^1.9.6",
-    "webpack": "^5.3.2",
-    "webpack-stream": "^6.1.0"
+    "tailwindcss": "^2.0.2",
+    "webpack": "^5.11.0",
+    "webpack-stream": "^6.1.1"
   },
   "scripts": {
     "production-build": "cross-env NODE_ENV=production gulp cssProd jsProd --parallel",
@@ -80,6 +63,7 @@
   },
   "dependencies": {
     "jquery": "^3.5.1",
-    "photoswipe": "^4.1.3"
+    "photoswipe": "^4.1.3",
+    "vue": "^3.0.4"
   }
 }
