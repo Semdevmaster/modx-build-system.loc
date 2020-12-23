@@ -3,7 +3,7 @@
 {block 'content'}
   <header class="container full-bleed-bg py-4 mb-4 bg-purple-700 flex flex-wrap justify-between items-center">
     <div class="text-2xl text-white">Logo</div>
-    <div class="icon icon-add icon-margin-right-sm text-white">add</div>
+    <div class="ui-icon icon-add before:mr-1 text-white">add</div>
   </header>
   <main class="container px-4">
     {include 'file:chunks/utils/_breadcrumbs.tpl'}
@@ -38,7 +38,7 @@
       </label>
     </div>
     <button id="cl" class="inline-block border border-red-500">
-      <svg class="inline-icon text-3xl pointer-events-none">
+      <svg class="inline-icon text-3xl">
         <use xlink:href="assets/img/sprite.svg#menu-outline" class="menu-icon"></use>
         <use xlink:href="assets/img/sprite.svg#close-outline" class="close-icon hidden"></use>
       </svg>
@@ -52,6 +52,19 @@
         closeIcon.classList.toggle('hidden')
       })
     </script>
+
+    <h2>Animations</h2>
+    <div class="grid grid-cols-12 items-center justify-items-center">
+      <div>
+        <div role="presentation" class="ui-loader-donut-spinner text-accent"></div>
+      </div>
+      <div>
+        <div class="ui-loader-bouncing">
+          <div></div>
+        </div>
+      </div>
+    </div>
+
 
     <h2>Forms</h2>
     <hr>

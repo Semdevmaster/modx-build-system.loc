@@ -1,4 +1,5 @@
-const colors = require('tailwindcss/colors')
+const colors = require('tailwindcss/colors');
+const plugin = require('tailwindcss/plugin');
 
 module.exports = {
   purge: [],
@@ -750,7 +751,7 @@ module.exports = {
     appearance: ['responsive'],
     backgroundAttachment: ['responsive'],
     backgroundClip: ['responsive'],
-    backgroundColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
+    backgroundColor: ['responsive', 'before', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
     backgroundImage: ['responsive'],
     backgroundOpacity: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus'],
     backgroundPosition: ['responsive'],
@@ -780,7 +781,7 @@ module.exports = {
     flexWrap: ['responsive'],
     float: ['responsive'],
     fontFamily: ['responsive'],
-    fontSize: ['responsive'],
+    fontSize: ['responsive', 'before'],
     fontSmoothing: ['responsive'],
     fontStyle: ['responsive'],
     fontVariantNumeric: ['responsive'],
@@ -807,7 +808,7 @@ module.exports = {
     lineHeight: ['responsive'],
     listStylePosition: ['responsive'],
     listStyleType: ['responsive'],
-    margin: ['responsive'],
+    margin: ['responsive', 'before'],
     maxHeight: ['responsive'],
     maxWidth: ['responsive'],
     minHeight: ['responsive'],
@@ -815,7 +816,7 @@ module.exports = {
     objectFit: ['responsive'],
     objectPosition: ['responsive'],
     opacity: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus'],
-    order: ['responsive'],
+    order: ['responsive', 'before'],
     outline: ['responsive', 'focus-within', 'focus'],
     overflow: ['responsive'],
     overscrollBehavior: ['responsive'],
@@ -861,5 +862,7 @@ module.exports = {
     wordBreak: ['responsive'],
     zIndex: ['responsive', 'focus-within', 'focus'],
   },
-  plugins: [],
-}
+  plugins: [
+    require('tailwindcss-pseudo-elements')
+  ],
+};

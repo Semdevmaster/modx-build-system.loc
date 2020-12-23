@@ -52,6 +52,7 @@ const serve = cb => {
       'www/assets/**/*.*',
       'www/core/elements/**/*.*'
     ],
+    ui: false,
     open: false,
     notify: false
   });

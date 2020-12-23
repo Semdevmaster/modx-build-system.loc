@@ -1,12 +1,11 @@
 .ui-select {
   position: relative;
   display: flex;
-  @apply w-full;
   height: 2rem;
   line-height: 2rem;
-  @apply bg-gray-200;
   overflow: hidden;
   border-radius: .25em;
+  @apply bg-gray-200 w-full;
 }
 
 .ui-select select {
@@ -14,28 +13,23 @@
   outline: 0;
   box-shadow: none;
   border: 0;
-  @apply bg-gray-200;
   background-image: none;
   flex: 1;
   padding: 0 .5em;
-  @apply pl-4;
-  @apply text-black;
-  @apply text-lg;
   cursor: pointer;
+  @apply bg-gray-200 text-black text-lg pl-4;
 }
 
 .ui-select::after {
   content: '\25BC';
-  @apply text-xs;
   position: absolute;
-  @apply text-gray-700;
   top: 0;
   right: 0;
   padding: 0 .6em;
-  @apply bg-gray-300;
   cursor: pointer;
   pointer-events: none;
   transition: .25s all ease;
+  @apply bg-gray-300 text-gray-700 text-xs h-full inline-flex justify-center items-center;
 }
 
 .ui-select:hover::after {
